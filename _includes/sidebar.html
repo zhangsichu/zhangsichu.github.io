@@ -16,7 +16,7 @@
   </header>
   <!-- .profile-wrapper -->
 
-  <nav class="flex-column flex-grow-1 w-100 ps-0">
+  <nav class="d-flex flex-column flex-grow-1 w-100 ps-0">
     <ul class="nav">
       <!-- home -->
       <li class="nav-item{% if page.layout == 'home' %}{{ " active" }}{% endif %}">
@@ -38,9 +38,12 @@
         <!-- .nav-item -->
       {% endfor %}
     </ul>
+    <div class="d-flex flex-column justify-content-center align-items-center w-100 flex-grow-1 pb-3">
+      <img src="/assets/img/home/characterlogo.webp" class="img-fluid" />
+    </div>
   </nav>
 
-  <div class="sidebar-bottom d-flex flex-wrap  align-items-center w-100">
+  <div class="sidebar-bottom d-flex flex-wrap justify-content-center align-items-center w-100">
     {% unless site.theme_mode %}
       <button type="button" class="btn btn-link nav-link" aria-label="Switch Mode" id="mode-toggle">
         <i class="fas fa-adjust"></i>

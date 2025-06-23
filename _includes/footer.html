@@ -6,26 +6,36 @@
     d-flex flex-column justify-content-center text-muted
     flex-lg-row justify-content-lg-between align-items-lg-center pb-lg-3
   "
->
-  <p>
-    {{- '©' }}
-    <time>{{ 'now' | date: '%Y' }}</time>
+>      
 
-    {% if site.social.links %}
-      <a href="{{ site.social.links[0] }}">{{ site.social.name }}</a>.
-    {% else %}
-      <em class="fst-normal">{{ site.social.name }}</em>.
-    {% endif %}
+  <div class="d-flex justify-content-between align-items-center w-100">
+    <div class="text-start">
+      <p class="mb-1">
+        {{- '©' }}
+        <time>{{ 'now' | date: '%Y' }}</time>
 
-    {% if site.data.locales[include.lang].copyright.brief %}
-      <span
-        data-bs-toggle="tooltip"
-        data-bs-placement="top"
-        title="{{ site.data.locales[include.lang].copyright.verbose }}"
-      >
-        {{- site.data.locales[include.lang].copyright.brief -}}
-      </span>
-    {% endif %}
-  </p>
+        {% if site.social.links %}
+          <a href="{{ site.social.links[2] }}">{{ site.social.name }}</a>.
+        {% else %}
+          <em class="fst-normal">{{ site.social.name }}</em>.
+        {% endif %}
 
+        {% if site.data.locales[include.lang].copyright.brief %}
+          <span
+            data-bs-toggle="tooltip"
+            data-bs-placement="top"
+            title="{{ site.data.locales[include.lang].copyright.verbose }}"
+          >
+            {{- site.data.locales[include.lang].copyright.brief -}}
+          </span>
+        {% endif %}
+      </p>
+      <p class="mb-0 text-start">
+        陕ICP备<a href="assets/cert/bazs.cert" target="_blank">05000130</a>号
+      </p>
+    </div>
+    <div class="text-end">
+      <img src="/assets/img/home/bloglogo.webp" class="img-fluid" />
+    </div>
+  </div>
 </footer>
