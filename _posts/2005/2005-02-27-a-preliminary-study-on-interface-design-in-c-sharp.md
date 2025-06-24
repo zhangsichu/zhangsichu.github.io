@@ -3,7 +3,9 @@ title: C#下界面设计初探
 date: 2005-02-27 22:49:36 + 0800
 category: [面向对象程序设计]
 tags: [C#, Design, GUI, Programming]
-image: /assets/attachments/2005/02/28_090446_yvn34.gif
+image: 
+  path: /assets/attachments/2005/02/28_090446_yvn34.gif
+  show_top: false
 ---
 
 对程序的设计分析可以面向对象，对界面的设计可以面向设计吗？.Net Web设计有一个.UI可以专门来设计 Asp.Net的界面。.Net界面的设计和操作分离可以很方便的实现。自学了.Net下的面向对象设计，用C#来实现.Net下的界面的设计和操作的分离。最近和同学合作，作了一个社区的管理程序，要求界面模仿Windows优化大师，要求界面简单易用功能分类清晰。下面是设计好的界面：  
