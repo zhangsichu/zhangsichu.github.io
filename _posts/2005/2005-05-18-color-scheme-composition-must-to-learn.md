@@ -39,5 +39,5 @@ tags: [Design, GUI, Software Development]
 5、 在白色中混入少量的绿，给人一种稚嫩、柔和的感觉。  
 6、 在白色中混入少量的紫，可诱导人联想到淡淡的芳香。  
 
-[转载自ChinaUI](http://chinaui.com/text/t1.asp?id=821)
+[转载自ChinaUI](https://chinaui.com/text/t1.asp?id=821)
 
