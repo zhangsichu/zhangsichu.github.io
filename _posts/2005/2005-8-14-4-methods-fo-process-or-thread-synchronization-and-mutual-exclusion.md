@@ -2,8 +2,6 @@
 title: 四种进程或线程同步互斥的控制方法
 date: 2005-08-14 23:35:08 + 0080
 category: [C++/C]
-category_id: 1
-view_count: 59815
 tags: [C++/C, C#, Multithreading, 多线程, Programming, GUI]
 ---
 

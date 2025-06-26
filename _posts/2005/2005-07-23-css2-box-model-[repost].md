@@ -1,6 +1,6 @@
 ---
 title: CSS2盒模型[转载]
-date: 2005-07-09 08:55:56 + 0080
+date: 2005-07-23 08:55:56 + 0080
 category: [平面设计]
 tags: [Design, CSS]
 ---
@@ -16,7 +16,7 @@ CSS布局与传统表格`(table)`布局最大的区别在于：原来的定位�
     BORDER-TOP: #CCC 2px solid;  
     BORDER-RIGHT: #CCC 2px solid;  
     BORDER-BOTTOM: #CCC 2px solid;  
-    BORDER-LEFT: #CCC 2px solid;  
+    BORDER-LEFT: #CCC 2px solid;
     BACKGROUND: url(images/bg_logo.png) #FEFEFE no-repeat right bottom;  
     COLOR: #666;  
     TEXT-ALIGN: center;  
