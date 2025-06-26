@@ -2,7 +2,7 @@
 title: CSS2盒模型[转载]
 date: 2005-07-23 08:55:56 + 0080
 category: [平面设计]
-tags: [Design, CSS]
+tags: [Design, CSS, 转载]
 ---
 
 CSS布局与传统表格`(table)`布局最大的区别在于：原来的定位都是采用表格，通过表格的间距或者用无色透明的GIF图片来控制文布局版块的间距；而现在则采用层`(div)`来定位，通过层的`margin,padding,border`等属性来控制版块的间距。  

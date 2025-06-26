@@ -2,7 +2,7 @@
 title: 从求解一元二次方程的根看面向对象程序设计
 date: 2005-02-16 22:46:57 + 0080
 category: [面向对象程序设计]
-tags: [C++, C#, Debugging, Design, Multithreading, 多线程, Programming]
+tags: [C++/C, C#, Debugging, Design, Multithreading, 多线程, Programming]
 ---
 
 面向对象可利用设计(OOD)的第一块基石，就是"开-闭原则（Open-Closed Principle,简称OCP）。OCP原则认为：一个软件应该对扩展开放，对修改关闭。 这是由大师Bertrand Meyer提出，英文原文是: Software entities should be open for extension,but closed for modification. 那么怎么在程序设计中做到遵循OCP原则，进行面向对象程序设计呢？在这个问题上很多大师都说是 经验+技巧 才可以达到用OCP原则来指导面向对象程序设计。本人学了一段时间，可是还没有完全领悟OCP原则，下面以求解一元二次方程的根为例，通过5次改进达到使用OCP原则指导面向对象程序设计，代码在WinXp Sp2+C# 下编译通过。  
@@ -519,7 +519,7 @@ namespace equation5
 }  
 ```
 
-通过5次修改完成了数据和操作的分离。根据OCP原则，要对方程再作什么操作，就再抽象出一个操作类来。而方程的数据类不变，它是不可以修改的。对要添加的新功能是开放的，对内部结构设计的修改是关闭的。  
+通过5次修改完成了数据和操作的分离。根据OCP原则，要对方程再作什么操作，就再抽象出一个操作类来。而方程的数据类不变，它是不可以修改的。对要添加的新功能是开放的，对内部结构设计的修改是关闭的。 
 
-[源文件(WinXp Sp2+Visual Studio 2003 下编译通过)](/assets/attachments/2005/02/16_170740_2yq5equation.rar)
+[**源程序(WinXp Sp2+Visual Studio 2003 下编译通过)**](/assets/attachments/2005/02/16_170740_2yq5equation.rar)
 

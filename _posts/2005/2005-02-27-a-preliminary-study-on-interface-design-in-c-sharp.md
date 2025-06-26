@@ -104,7 +104,4 @@ private void btService_Click(object sender, System.EventArgs e)
 
 最终实现了各个窗体管理自己的按钮，给别的窗体留出通讯接口（这里是 transferForm 那个指代给Side类窗体传入两个函数）各司其职，互相留好通信接口。功能和界面分离，管理方便。  
 
-  
-[**执行程序 (需要.Net1.1运行时环境)**](/assets/attachments/2005/02/27_231728_b91fCommunity.rar)  
-
-
+[**执行程序(需要.Net1.1运行时环境)**](/assets/attachments/2005/02/27_231728_b91fCommunity.rar)  

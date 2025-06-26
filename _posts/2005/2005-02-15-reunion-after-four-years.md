@@ -17,4 +17,4 @@ image: /assets/attachments/2005/02/17_201014_he8l2.gif
 ![相聚](/assets/attachments/2005/02/17_214526_wtlzmeet4.jpg){: .rounded-10 .normal}
 
 
-[**咱们同学的联系方式 (Txt 格式)**](/assets/attachments/2005/02/16_001304_xun2phone_number.rar)  
+[**咱们同学的联系方式(Txt 格式)**](/assets/attachments/2005/02/16_001304_xun2phone_number.rar)  

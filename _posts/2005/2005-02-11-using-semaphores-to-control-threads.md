@@ -2,7 +2,7 @@
 title: 用信号量控制线程
 date: 2005-02-11 12:12:35 + 0080
 category: [C++/C]
-tags: [C++, Design, Multithreading, 多线程]
+tags: [C++/C, Design, Multithreading, 多线程]
 ---
 
 ###### 开发环境：VS7，Windows XP  

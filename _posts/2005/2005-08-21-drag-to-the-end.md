@@ -295,5 +295,4 @@ if(point.y<this->m_Height)
 ```
 遗憾，第四种方法是效率最高的，但是没有完全搞出来。
 
-本文所有示例程序在中文WindowsXp Sp2 + VC7 下编译通过  
-[本文程序源代码](/assets/attachments/2005/08/21_232715_fc5jDrag.rar)
+[**源程序(WindowsXp Sp2 + VC7 下编译通过)**](/assets/attachments/2005/08/21_232715_fc5jDrag.rar)
