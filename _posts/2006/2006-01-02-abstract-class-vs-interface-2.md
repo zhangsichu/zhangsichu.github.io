@@ -138,4 +138,4 @@ private void StrategyDraw()
 
 在上面的两个设计模式中，`DecoratorPattern` 中的 `ComponentDecorator` 这个 `AbstractClass` 体现了`Class` 一级的抽象，`AbstractClass` 提供给了子类共有的属性和方法。在 `DecoratorPattern` 和`StrategyPattern` 中多出用到 `Interface`，体现了 `Interface` 是方法一级的抽象。  
 
-[**源程序(Windows 2003 Enterprise + VS 2003 Enterprise 下编译通过 )**](/assets/attachments/2006/01/02_170640_85waDesignPattern.rar)
+[**源程序(Windows 2003 Enterprise + VS 2003 Enterprise 下编译通过)**](/assets/attachments/2006/01/02_170640_85waDesignPattern.rar)
