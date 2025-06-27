@@ -43,7 +43,7 @@ user.ItemArray = (object[])this.ViewState[viewStateKeyNameUser];
 存：`this.ViewState.Add(viewStateKeyNameUser,uer.Table); //uer 是一个USERRow`  
 取：`((USERDataTable)this.ViewState[viewStateKeyNameUser]).Rows[0];`  
 
-### Useful tag.  
+### Useful Tips 
 1. Input html control close/open `style=”ime-mode:active”`.  
 2. Control the text box paste `onbeforepaste="" paste =""`. 
 
