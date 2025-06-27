@@ -25,11 +25,11 @@ image:
 上面的Monday Tuesday …等等这些Button的定义，可以在安装目录下的DailyReportApplication.xml文件中找到，您可以找到类似如下的描述：  
 ```xml
 <FieldInfo>  
-<ID>5</ID>   
-<Name>Friday</Name>   
-<Order>6</Order>   
-<Visible>True</Visible>   
-<Data></Data>   
+    <ID>5</ID>   
+    <Name>Friday</Name>   
+    <Order>6</Order>   
+    <Visible>True</Visible>   
+    <Data></Data>   
 </FieldInfo>
 ```
 它描述了界面中的Button按照怎样的顺序排序，Button是否显示，显示什么文字。点击Button后，在当日记录怎样的信息。您可以打开这个文件自己修改自己编辑。 
@@ -39,14 +39,19 @@ image:
 ![Report](/assets/attachments/2006/04/23_181853_63u9exprot.gif)  
 这个报告模板在安装目录下的 `DailyReportApplicationFormater.xml` 中，打开文件后您会看到如下的定义。`Formater/Content`下定义了报告模板的正文，`Formater/ReplaceInfo` 中定义了那些内容需要被替换，替换用到的数据内容是什么。
 ```xml
-- <Formater>  
-<Name>DefaultFormater</Name>   
-<Content>= Work Accomplished Last Week ====================== %WorkCompletedLastWeek/Data% = Working Status=================================== = Work Accomplished Last Week ====================== [Monday] %Monday/Data% [Tuesday] %Tuesday/Data% [Wednesday] %Wednesday/Data% [Thursday] %Thursday/Data% [Friday] %Friday/Data% = Work Plan for This Week =========================== %WorkPlanNextWeek/Data% = My Thoughts ====================================== %MyThoughts/Data%  
-</Content>  
+<Formater>  
+    <Name>DefaultFormater</Name>   
+    <Content>
+    = Work Accomplished Last Week ====================== %WorkCompletedLastWeek/Data% 
+    = Working Status=================================== 
+    = Work Accomplished Last Week ====================== [Monday] %Monday/Data% [Tuesday] %Tuesday/Data% [Wednesday] %Wednesday/Data% [Thursday] %Thursday/Data% [Friday] %Friday/Data% 
+    = Work Plan for This Week =========================== %WorkPlanNextWeek/Data% 
+    = My Thoughts ====================================== %MyThoughts/Data%  
+    </Content>  
 </Formater>  
-- <ReplaceInfo>  
-<PlaceHolder>%WorkCompletedLastWeek/Data%</PlaceHolder>   
-<ReplaceContent>WorkCompletedLastWeek/Data</ReplaceContent>   
+<ReplaceInfo>  
+    <PlaceHolder>%WorkCompletedLastWeek/Data%</PlaceHolder>   
+    <ReplaceContent>WorkCompletedLastWeek/Data</ReplaceContent>   
 </ReplaceInfo>
 ```
 

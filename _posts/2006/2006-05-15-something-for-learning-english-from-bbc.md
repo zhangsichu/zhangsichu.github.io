@@ -1,6 +1,6 @@
 ---
 title: Something for learning English from bbc word service
-date: 2006-06-27 10:30:50 + 0080
+date: 2006-05-15 10:30:50 + 0080
 category: [杂事/随感]
 tags: [随感, Life]
 ---
