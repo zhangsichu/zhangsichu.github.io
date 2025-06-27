@@ -1,5 +1,5 @@
 ---
-title: 好用的 Application.ThreadException
+title: 好用的 ThreadException
 date: 2006-12-25 16:56:53 + 0080
 category: [.Net/Java]
 tags: [C#, Software Development]
