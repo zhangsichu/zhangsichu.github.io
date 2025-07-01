@@ -2,7 +2,7 @@
 title: 平面设计整理
 date: 2005-04-09 9:27:55 + 0080
 category: [平面设计]
-tags: [Design, GUI]
+tags: [Design, GUI, 大制作]
 image:
   path: /assets/attachments/2005/04/09_095826_jg9mstar.jpg
   show_top: false

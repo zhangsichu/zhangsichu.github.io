@@ -2,7 +2,7 @@
 title: WebLinkSpider 简单搜索引擎分析
 date: 2007-03-02 16:08:14 + 0080
 category: [.Net/Java]
-tags: [Web, C#, Database, Gui]
+tags: [Web, C#, Database, Gui, 大制作]
 image:
   path: /assets/attachments/2007/03/03_144520_52t8weblinkspider.gif
   show_top: false

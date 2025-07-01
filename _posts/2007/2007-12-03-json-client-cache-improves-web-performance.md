@@ -2,7 +2,7 @@
 title: Json客户端Cache提高Web性能
 date: 2007-12-03 18:54:20 + 0080
 category: [Web开发]
-tags: [Web, Performance]
+tags: [Web, Performance, 大制作]
 ---
 
 经常在讨论或者文章中看到对Json的介绍，介绍使用Json进行客户端Cache，可以大大提高Web的性能，但是介绍的文章对这方面的内容总是提纲挈领的说一下。总是没有个一个具体的应用场景，和全面的解决方案，让人看了总是感觉不过瘾 :(

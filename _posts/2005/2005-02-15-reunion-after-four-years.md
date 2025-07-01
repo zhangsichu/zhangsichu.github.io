@@ -2,7 +2,7 @@
 title: 四年后的重逢
 date: 2005-02-15 23:20:15 + 0080
 category: [杂事/随感]
-tags: [Life, 同学会]
+tags: [Life, 同学会, 大制作]
 image: /assets/attachments/2005/02/17_201014_he8l2.gif
 ---
 
