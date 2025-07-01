@@ -45,18 +45,18 @@ UINT WriteSpeed(LPVOID p)
   CString sMe;  
   CEdit *ptr=(CEdit *)p;
   while(bOnOff)  
-    {  
-      WaitForSingleObject(ptrDrawSpd,INFINITE);
-      ptr->SetWindowText("线程WriteSpeed正在运行"+sTr+"---Speed:"+sMe+"已经接到信号");
-      ::Sleep(1000);
-      srand((int)time(0)); //种种子数  
-      iSpeed=iUp+iDown+rand();
-      ReleaseSemaphore(ptrSpdUpDown,1,NULL);
-      sTr.Format("%d",iNo);
-      sMe.Format("%d",iSpeed);
-      ptr->SetWindowText("线程WriteSpeed正在运行"+sTr+"---Speed:"+sMe);
-      iNo++;  
-    }  
+  {  
+    WaitForSingleObject(ptrDrawSpd,INFINITE);
+    ptr->SetWindowText("线程WriteSpeed正在运行"+sTr+"---Speed:"+sMe+"已经接到信号");
+    ::Sleep(1000);
+    srand((int)time(0)); //种种子数  
+    iSpeed=iUp+iDown+rand();
+    ReleaseSemaphore(ptrSpdUpDown,1,NULL);
+    sTr.Format("%d",iNo);
+    sMe.Format("%d",iSpeed);
+    ptr->SetWindowText("线程WriteSpeed正在运行"+sTr+"---Speed:"+sMe);
+    iNo++;  
+  }  
   return 0;  
 } 
 
@@ -89,15 +89,15 @@ UINT DrawWindow(LPVOID p)
   CString sTr;  
   CEdit *ptr=(CEdit *)p;
   while(bOnOff)  
-    {  
-      WaitForSingleObject(ptrUpDownDraw,INFINITE);
-      ptr->SetWindowText("线程DrawWindow正在运行"+sTr+"已经接到信号");
-      ::Sleep(1000);
-      sTr.Format("%d",iNo);
-      ptr->SetWindowText("线程DrawWindow正在运行"+sTr);
-      iNo++;  
-      ReleaseSemaphore(ptrDrawSpd,1,NULL);
-    }  
+  {  
+    WaitForSingleObject(ptrUpDownDraw,INFINITE);
+    ptr->SetWindowText("线程DrawWindow正在运行"+sTr+"已经接到信号");
+    ::Sleep(1000);
+    sTr.Format("%d",iNo);
+    ptr->SetWindowText("线程DrawWindow正在运行"+sTr);
+    iNo++;  
+    ReleaseSemaphore(ptrDrawSpd,1,NULL);
+  }  
   return 0;  
 }
 ```

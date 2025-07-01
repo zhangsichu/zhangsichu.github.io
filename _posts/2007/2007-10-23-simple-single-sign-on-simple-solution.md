@@ -1,5 +1,5 @@
 ---
-title: 多站点整合―单点登录简单方案
+title: 多站点整合 - 单点登录简单方案
 date: 2007-10-23 17:13:01 + 0080
 category: [Web开发]
 tags: [Web, Design, Security]

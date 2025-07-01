@@ -1,5 +1,5 @@
 ---
-title: 大学-高中信息数据库
+title: 大学 - 高中信息数据库
 date: 2007-12-03 19:12:45 + 0080
 category: [SQL]
 tags: [Database, Design]

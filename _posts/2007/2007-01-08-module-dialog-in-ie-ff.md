@@ -92,7 +92,7 @@ function window_onunload() {
     //对于Firefox需要进行返回值的额外逻辑处理  
     if(!window.document.all)//FireFox  
     {  
-    window.opener.myAction.returnAction(window.returnValue)  
+        window.opener.myAction.returnAction(window.returnValue)  
     }  
 }
 ```

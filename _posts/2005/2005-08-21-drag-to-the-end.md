@@ -247,8 +247,8 @@ public class DragHandler : Handler
         else   
         {  
             // not handled here - pass on to next in the chain  
-            if (successorHandler != null)  
-            successorHandler.HandleRequest(request); 
+            if (successorHandler != null)
+                successorHandler.HandleRequest(request); 
         } 
     }  
 }

@@ -166,75 +166,77 @@ BEGIN_DHTML_EVENT_MAP(urClass)
 DHTML_EVENT_ONCLICK(_T("id name"), OnXXXXX)  
 END_DHTML_EVENT_MAP()  
 
-下面是一段示范代码：  
+//下面是一段示范代码：  
 // mydlg.h  
 class CmydhtmlDlg : public CDHtmlDialog  
 {  
-// 构造  
-public:  
-  CmydhtmlDlg(CWnd* pParent = NULL); // 标准构造函数
+  // 构造  
+  public:  
+    CmydhtmlDlg(CWnd* pParent = NULL); // 标准构造函数
 
-// 对话框数据  
+  // 对话框数据  
   enum { IDD = IDD_MYDHTML_DIALOG, IDH = IDR_HTML_MYDHTML_DIALOG };
 
-protected:  
-  virtual void DoDataExchange(CDataExchange* pDX); // DDX/DDV 支持
+  protected:  
+    virtual void DoDataExchange(CDataExchange* pDX); // DDX/DDV 支持
 
-  HRESULT OnButtonOK(IHTMLElement *pElement);
-  HRESULT OnButtonCancel(IHTMLElement *pElement);
-  RESULT OnButtonTest1(IHTMLElement *pElement);
-  HRESULT OnButtonTest2(IHTMLElement *pElement);
-  HRESULT OnButtonTest3(IHTMLElement *pElement);
-  HRESULT OnSelectTest1(IHTMLElement *pElement);
-  HRESULT OnDivMouseMove1(IHTMLElement *pElement);
-  HRESULT OnDivMouseOut1(IHTMLElement *pElement);
+    HRESULT OnButtonOK(IHTMLElement *pElement);
+    HRESULT OnButtonCancel(IHTMLElement *pElement);
+    RESULT OnButtonTest1(IHTMLElement *pElement);
+    HRESULT OnButtonTest2(IHTMLElement *pElement);
+    HRESULT OnButtonTest3(IHTMLElement *pElement);
+    HRESULT OnSelectTest1(IHTMLElement *pElement);
+    HRESULT OnDivMouseMove1(IHTMLElement *pElement);
+    HRESULT OnDivMouseOut1(IHTMLElement *pElement);
 
-//mydlg.cpp  
-  BEGIN_DHTML_EVENT_MAP(CmydhtmlDlg)  
-  DHTML_EVENT_ONCLICK(_T("ButtonOK"), OnButtonOK)  
-  DHTML_EVENT_ONCLICK(_T("ButtonCancel"), OnButtonCancel)  
-  DHTML_EVENT_ONCLICK(_T("Test1"), OnButtonTest1)  
-  DHTML_EVENT_ONCLICK(_T("Test2"), OnButtonTest2)  
-  DHTML_EVENT_ONCLICK(_T("Test3"), OnButtonTest3)  
-  DHTML_EVENT_ONCHANGE(_T("s1"), OnSelectTest1)  
-  DHTML_EVENT_ONMOUSEMOVE(_T("d1"), OnDivMouseMove1)  
-  DHTML_EVENT_ONMOUSEOUT(_T("d1"), OnDivMouseOut1)  
-  END_DHTML_EVENT_MAP()  
+  //mydlg.cpp  
+    BEGIN_DHTML_EVENT_MAP(CmydhtmlDlg)  
+    DHTML_EVENT_ONCLICK(_T("ButtonOK"), OnButtonOK)  
+    DHTML_EVENT_ONCLICK(_T("ButtonCancel"), OnButtonCancel)  
+    DHTML_EVENT_ONCLICK(_T("Test1"), OnButtonTest1)  
+    DHTML_EVENT_ONCLICK(_T("Test2"), OnButtonTest2)  
+    DHTML_EVENT_ONCLICK(_T("Test3"), OnButtonTest3)  
+    DHTML_EVENT_ONCHANGE(_T("s1"), OnSelectTest1)  
+    DHTML_EVENT_ONMOUSEMOVE(_T("d1"), OnDivMouseMove1)  
+    DHTML_EVENT_ONMOUSEOUT(_T("d1"), OnDivMouseOut1)  
+    END_DHTML_EVENT_MAP()  
 
-HRESULT CmydhtmlDlg::OnButtonOK(IHTMLElement* /*pElement*/)  
-{  
-  OnOK();
-  return S_OK;  
-}  
 
-HRESULT CmydhtmlDlg::OnButtonCancel(IHTMLElement* /*pElement*/)  
-{  
-  OnCancel();
-  return S_OK;  
-}  
+  HRESULT CmydhtmlDlg::OnButtonOK(IHTMLElement* /*pElement*/)  
+  {  
+    OnOK();
+    return S_OK;  
+  }  
 
-HRESULT CmydhtmlDlg::OnButtonTest1(IHTMLElement* /*pElement*/)  
-{  
-  AfxMessageBox("test1 button clicked");
-  return S_OK;  
-}  
+  HRESULT CmydhtmlDlg::OnButtonCancel(IHTMLElement* /*pElement*/)  
+  {  
+    OnCancel();
+    return S_OK;  
+  }  
 
-HRESULT CmydhtmlDlg::OnSelectTest1(IHTMLElement* /*pElement*/)  
-{  
-  RACE("select1 changed\n");
-  return S_OK;  
-}  
+  HRESULT CmydhtmlDlg::OnButtonTest1(IHTMLElement* /*pElement*/)  
+  {  
+    AfxMessageBox("test1 button clicked");
+    return S_OK;  
+  }  
 
-HRESULT CmydhtmlDlg::OnDivMouseMove1(IHTMLElement* /*pElement*/)  
-{  
-   TRACE("div1 mouse move\n");
-   return S_OK;  
-}  
+  HRESULT CmydhtmlDlg::OnSelectTest1(IHTMLElement* /*pElement*/)  
+  {  
+    RACE("select1 changed\n");
+    return S_OK;  
+  }  
 
-HRESULT CmydhtmlDlg::OnDivMouseOut1(IHTMLElement* /*pElement*/)  
-{  
-  TRACE("div1 mouse out\n");
-  return S_OK;  
+  HRESULT CmydhtmlDlg::OnDivMouseMove1(IHTMLElement* /*pElement*/)  
+  {  
+    TRACE("div1 mouse move\n");
+    return S_OK;  
+  }  
+
+  HRESULT CmydhtmlDlg::OnDivMouseOut1(IHTMLElement* /*pElement*/)  
+  {  
+    TRACE("div1 mouse out\n");
+    return S_OK;  
+  }
 }  
 ```
 

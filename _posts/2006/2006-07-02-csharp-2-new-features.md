@@ -38,9 +38,9 @@ public class Finder
         for (int i = 0; i < items.Length; i++)
         {
             if (items[i].Equals(item))
-        {
-            return i;
-        }
+            {
+                return i;
+            }
         }
         return -1;
     }

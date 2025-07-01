@@ -67,7 +67,7 @@ SpiderService.exe.config Service配置信息
 1. CheckPeriod 服务检查的周期  
 1. WebLinkSpiderExeName 爬虫程序的名字
 
-4个网站10层深度爬的结果 
+**4个网站10层深度爬的结果** 
 ![Result](/assets/attachments/2007/03/03_144520_52t8weblinkspider.gif)  
 
 [**源程序**](/assets/attachments/2007/03/02_174435_vskzWebLinkSpider.rar)  
