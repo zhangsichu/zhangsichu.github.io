@@ -2,7 +2,7 @@
 title: APM-ActionPerMinute
 date: 2008-07-21 20:03:51 + 0080
 category: [.Net/Java]
-tags: [C#, Design, Performance, Software Development]
+tags: [C#, Design, Performance, Software Development, 大制作]
 ---
 
 只要运行，就可以知道自己每时间的鼠标和键盘动作量。  

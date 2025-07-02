@@ -2,7 +2,7 @@
 title: 在网页上扫雷
 date: 2009-01-12 20:54:29 + 0080
 category: [Web开发]
-tags: [Web, Design, Software Development]
+tags: [Web, Design, Software Development, 大制作]
 image: /assets/attachments/2009/01/12_205206_74v0MineSweeper.gif
 ---
 

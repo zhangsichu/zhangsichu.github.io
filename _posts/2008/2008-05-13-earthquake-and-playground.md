@@ -13,7 +13,7 @@ image:
 据说西安13日凌晨还有地震。咱一想吧，好不容易奋斗了22年上完了大学，工作了3年，终于开始向自己的梦想奔跑了，刚跑两步，不会小命就交代给地震了吧。心里有点毛，看着众多人都搬到学校的操场上过夜了。算了，咱也去吧。就这样，因为地震操场上聚集满了人，三个男生带着吃的的喝的，也来到了西电的操场上，到了一看，人还真多，有三五个围坐在一起，点着蜡烛打牌，有几个挚友在一起聊天。最幸福的还要数那一对一对的小情侣们，他们一对一对的相拥着睡着，真是幸福幸福呀。可能是地震造就了机会，机会造就了小浪漫。呵呵。  
 
  **我们的帅哥在专心的看NBA**  
-![Click to Open in New Window](/assets/attachments/2008/05/13_024905_96xbearthquake1.jpg)  
+![a man](/assets/attachments/2008/05/13_024905_96xbearthquake1.jpg)  
 
  **操场边专业的帐篷**  
-![Click to Open in New Window](/assets/attachments/2008/05/13_025011_fc5iearthquake2.jpg)
+![tent beside the playground](/assets/attachments/2008/05/13_025011_fc5iearthquake2.jpg)
