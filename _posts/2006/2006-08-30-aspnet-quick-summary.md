@@ -2,7 +2,7 @@
 title: Asp.Net 应用小结
 date: 2006-08-30 10:18:06 + 0080
 category: [Web开发]
-tags: [Web, Software Development]
+tags: [Web, Cache, Software Development]
 ---
 
 ### VS2005调试JavaScript脚本  

@@ -2,7 +2,7 @@
 title: 如何利用客户端缓存对网站进行优化
 date: 2007-12-07 10:31:09 + 0080
 category: [Web开发]
-tags: [Web, Debugging, Performance]
+tags: [Web, Debugging, Cache, Performance]
 ---
 
 ### 介绍  

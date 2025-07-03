@@ -6,7 +6,6 @@ tags: [Life, 同学会, 大制作]
 image: /assets/attachments/2005/02/17_201014_he8l2.gif
 ---
 
-
 一同走过--记忆我们一同走过的日子。 Please remember the days.  
 相识是缘--协起手来开创美好的未来。We will cover the hill of splendour with better trees!  
 2005 2 15 相隔四年后我们又一次重逢 。  

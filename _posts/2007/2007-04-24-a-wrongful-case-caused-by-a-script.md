@@ -5,7 +5,6 @@ category: [Web开发]
 tags: [Web, Debugging]
 ---
 
-
 用 Google 搜索关键字：西安二手车，发现这个网站的下面多了一段警告。提示：**This site may harm your computer.** 本网站可能危害您的电脑。点击link后google会弹出一个更大的警告让你不去访问这个网站。  
 ![alert](/assets/attachments/2007/04/24_145646_nkcqimage1.gif)  
 看到这个提示，十分佩服 Google。把搜索和查毒集成在一起了。Google的搜索引擎真是牛。可是为什么 Google 会认为这个网站有问题会 **harm your computer**。进入 Google 对此内容的解释：  

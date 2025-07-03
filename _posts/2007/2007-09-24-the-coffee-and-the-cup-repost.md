@@ -5,7 +5,6 @@ category: [杂事/随感]
 tags: [Life, 随感]
 ---
 
-
 original link: https://www.wisteme.com/question.view?targetAction=viewQuestionTab&id=555  
 
 A group of alumni, highly established in their careers, got together to visit their old university professor.  

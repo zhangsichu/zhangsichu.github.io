@@ -6,7 +6,6 @@ tags: [Web, Design, GUI, Software Development, 大制作]
 image: /assets/attachments/2011/03/14_122354_c02fgame.gif
 ---
 
-
 扫雷是一个非常经典的游戏，记得在第一次接触的 **Windows 3.22** 上就有扫雷了，到现在的 **Win7**，依然保留着这个经典的游戏，结合 `Html5` `Canvas`，模仿 Win7 的 UI，将老板扫雷进行了升级。在 `FireFox`, `Chrome`, 和 `IE9` 下测试通过。  
 
 ### 设计的类

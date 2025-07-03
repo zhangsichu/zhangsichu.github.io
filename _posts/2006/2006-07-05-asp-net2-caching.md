@@ -2,9 +2,8 @@
 title: Asp.net 2.0 性能 Caching 学习
 date: 2006-07-05 11:39:15 + 0080
 category: [Web开发]
-tags: [Web, Caching, Performance]
+tags: [Web, Cache, Performance]
 ---
-
 
 1．注意使用Page.IsPostBack确定用户是否是第一次进入页面，确定是否需要载入数据。  
 ```c#
