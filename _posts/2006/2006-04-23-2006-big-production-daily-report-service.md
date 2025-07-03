@@ -109,5 +109,5 @@ ManagementBaseObject outParam = wmiService.InvokeMethod("Change", inParam, null)
 ```
 
 [**安装程序**](/assets/attachments/2006/04/23_182003_63u9DailyReportSetup.rar)  
-[**源程序**](/assets/attachments/2006/04/27_115024_sphwDailyReportService.rar)
+[**源代码**](/assets/attachments/2006/04/27_115024_sphwDailyReportService.rar)
 

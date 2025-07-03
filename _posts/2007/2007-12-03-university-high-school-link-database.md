@@ -24,4 +24,4 @@ University 大学数据表 收录了2428个大学
 School 院系数据表 收录了24564个院系  
 DormList 宿舍数据表 收录了15818个宿舍  
 
-[**源程序**](/assets/attachments/2007/12/03_171840_74vaSchoolData.rar)
+[**源代码**](/assets/attachments/2007/12/03_171840_74vaSchoolData.rar)

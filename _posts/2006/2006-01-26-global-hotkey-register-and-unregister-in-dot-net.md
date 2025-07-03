@@ -440,4 +440,4 @@ private void MainForm_HotKeyPressed(object sender, HotKeyController.HotKeyPresse
 }  
 ```
 
-[**源程序**](/assets/attachments/2006/01/26_100712_oldrHotKeySample.rar)
+[**源代码**](/assets/attachments/2006/01/26_100712_oldrHotKeySample.rar)

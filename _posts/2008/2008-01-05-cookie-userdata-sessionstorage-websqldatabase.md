@@ -142,5 +142,5 @@ Web SQL Database is supported by Google Chrome[1], Opera and Safari but will not
 
 不知道 HTML 5 的 `SQLDB` 会被浏览器支持的怎么样， 不过 `sessionStorage` 看上去已经可以基本满足需求了。  
 
-[**源程序**](/assets/attachments/2008/01/05_164109_xum1CookieVsStorage.rar) 
+[**源代码**](/assets/attachments/2008/01/05_164109_xum1CookieVsStorage.rar) 
 

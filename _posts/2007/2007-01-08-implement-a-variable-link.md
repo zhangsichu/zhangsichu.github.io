@@ -265,5 +265,5 @@ void link_ClickPostBack(object sender, BackLinkWithParameterEventArgs e)
 ```
 
 详细内容在示例代码中
-[**源程序**](/assets/attachments/2007/01/08_131844_jg9mLinkProblem.rar) 
+[**源代码**](/assets/attachments/2007/01/08_131844_jg9mLinkProblem.rar) 
 

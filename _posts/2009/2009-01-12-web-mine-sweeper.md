@@ -6,11 +6,7 @@ tags: [Web, Design, Software Development, 大制作]
 image: /assets/attachments/2009/01/12_205206_74v0MineSweeper.gif
 ---
 
-# 在网页上扫雷
-
-在网页上扫雷  
-
-GameMode:  
+GameMode:     
 Beginner 初级设置 Width:7 Height:7 Mine:10。  
 Intermediate 中级设置 Width:15 Height:15 Mine:40。  
 Expert 高级设置 Width:30 Height:15 Mine:99。  
@@ -25,6 +21,7 @@ Performance Test:
 Game Record:  
 游戏记录。  
 
+Game Control:      
 Pause: 暂停游戏。  
 Save: 存盘游戏。  
 

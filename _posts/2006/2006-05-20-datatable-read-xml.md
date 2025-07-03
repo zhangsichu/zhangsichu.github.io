@@ -85,4 +85,4 @@ internal void WriteSingleField(int index)
 }  
 ```
 
-[**源程序**](/assets/attachments/2006/05/21_100044_41s7DataSetDataTable.rar)
+[**源代码**](/assets/attachments/2006/05/21_100044_41s7DataSetDataTable.rar)

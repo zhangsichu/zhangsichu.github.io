@@ -421,4 +421,4 @@ void CEventDlg::OnBnClickedButtonStart()
 在 Linux 上，有两类信号量。第一类是由 semget/semop/semctl API 定义的信号量的 SVR4（System V Release 4）版本。第二类是由 sem_init/sem_wait/sem_post/interfaces 定义的 POSIX 接口。 它们具有相同的功能，但接口不同。 在2.4.x内核中，信号量数据结构定义为(include/asm/semaphore.h)。  
 但是在Linux中没有对互斥量的具体提法，只是看到说互斥量是信号量的一种特殊情况，当信号量的最大资源数=1同时可以访问共享资源的线程数=1 就是互斥量了。临界区的定义也比较模糊。没有找到用事件处理线程/进程同步互斥的操作的相关资料。在Linux下用GCC/G++编译标准C++代码，信号量的操作几乎和Windows下VC7的编程一样，不用改多少就顺利移植了，可是互斥量，事件，临界区的Linux移植没有成功。  
   
-[**源程序(WindowsXp Sp2 + VC7 下编译通过)**](/assets/attachments/2005/08/14_235601_a8zeThread.rar)
+[**源代码(WindowsXp Sp2 + VC7 下编译通过)**](/assets/attachments/2005/08/14_235601_a8zeThread.rar)

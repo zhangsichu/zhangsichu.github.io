@@ -521,5 +521,5 @@ namespace equation5
 
 通过5次修改完成了数据和操作的分离。根据OCP原则，要对方程再作什么操作，就再抽象出一个操作类来。而方程的数据类不变，它是不可以修改的。对要添加的新功能是开放的，对内部结构设计的修改是关闭的。 
 
-[**源程序(WinXp Sp2+Visual Studio 2003 下编译通过)**](/assets/attachments/2005/02/16_170740_2yq5equation.rar)
+[**源代码(WinXp Sp2+Visual Studio 2003 下编译通过)**](/assets/attachments/2005/02/16_170740_2yq5equation.rar)
 

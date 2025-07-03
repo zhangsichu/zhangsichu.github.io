@@ -2,7 +2,7 @@
 title: WebLinkSpider 简单搜索引擎分析
 date: 2007-03-02 16:08:14 + 0080
 category: [.Net/Java]
-tags: [Web, C#, Database, Gui, 大制作]
+tags: [Web, C#, Database, GUI, 大制作]
 image:
   path: /assets/attachments/2007/03/03_144520_52t8weblinkspider.gif
   show_top: false
@@ -70,4 +70,4 @@ SpiderService.exe.config Service配置信息
 **4个网站10层深度爬的结果** 
 ![Result](/assets/attachments/2007/03/03_144520_52t8weblinkspider.gif)  
 
-[**源程序**](/assets/attachments/2007/03/02_174435_vskzWebLinkSpider.rar)  
+[**源代码**](/assets/attachments/2007/03/02_174435_vskzWebLinkSpider.rar)  

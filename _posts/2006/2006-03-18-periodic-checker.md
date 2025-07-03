@@ -61,4 +61,4 @@ if(this._periodicChecker != null)
 ApplicationProcess 通过 Application 的 `ProcessID` 来监控当前的这个应用程序是否在运行，主要通过调用 `System.Diagnostics.Process.Start` `System.Diagnostics.Process.Kill` `System.Diagnostics.Process.GetProcessById` 这些方法来控制程序的运行。  
 PeriodicChecker 提供 Start Stop 方法使 PeriodicCheck 开始或者停止对应用程序的监控。并在应用程序Crash的时候，抛出ProcessCrashedEvent事件。最后在LoadApplication中完成全局的控制。  
 
-[**源程序**](/assets/attachments/2006/03/18_132616_a8zdPeriodicChecker.rar)
+[**源代码**](/assets/attachments/2006/03/18_132616_a8zdPeriodicChecker.rar)

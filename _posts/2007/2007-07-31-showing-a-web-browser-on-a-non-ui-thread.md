@@ -92,5 +92,5 @@ private void ShowMessage(object status)
 
 示例中的 `DataRow row = (new DataTable()).NewRow();` 没有实际意义，在实际代码中 `ShowMessage` 需要一个 `DataRow` 来绘制消息。示例代码中的 `DataRow` 只是为了模拟实际的环境，没有实际意义。  
 
-[**源程序**](/assets/attachments/2007/07/31_162029_52t8UIProcessTest.rar)
+[**源代码**](/assets/attachments/2007/07/31_162029_52t8UIProcessTest.rar)
 

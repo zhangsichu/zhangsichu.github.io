@@ -68,5 +68,5 @@ protected override void WndProc(ref Message m)
     base.WndProc (ref m); 
 }  
 ```
-[**源程序(Windows 2003 Serve + VS 2003编译通过)**](/assets/attachments/2006/04/17_135011_roguDragNew.rar)
+[**源代码(Windows 2003 Serve + VS 2003编译通过)**](/assets/attachments/2006/04/17_135011_roguDragNew.rar)
 

@@ -93,5 +93,5 @@ for(var i=1; i<=34;i++) {
 
 3. JsonCache和服务器端缓存的JsonCache `.js`文件自动更新联合使用。服务器端的数据存放在数据库中，当数据更新后，生成JsonCache的js文件，用户访问过这个`.js`文件后，缓存到客户端浏览器。  
 
-[**源程序**](/assets/attachments/2007/12/03_223526_kh0nJasonCache.rar) 
+[**源代码**](/assets/attachments/2007/12/03_223526_kh0nJasonCache.rar) 
 

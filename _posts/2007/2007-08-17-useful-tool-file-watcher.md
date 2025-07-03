@@ -21,5 +21,5 @@ FileWatcher有两个版本
 
 安装 Service 的命令，`InstallUtil.exe FileWatcherService.exe` InstallUtil.exe 在`%WINDIR%\Microsoft.NET\Framework\v2.0.50727` 下。  
 
-[**源程序**](/assets/attachments/2007/08/17_113033_1xp4Watcher.rar)
+[**源代码**](/assets/attachments/2007/08/17_113033_1xp4Watcher.rar)
 
