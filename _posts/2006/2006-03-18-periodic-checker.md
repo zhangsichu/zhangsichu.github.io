@@ -11,7 +11,7 @@ Periodic Checker 周期性检查器。 什么是周期性检查器？ 就是间�
 ![Flow](/assets/attachments/2006/03/18_121859_fc5jperiodicchecker.gif)  
 
 其实也是在一个很偶然的机会下，我想到了这个程序。有一次我发现某些不知道是干什么的程序，在系统任务管理栏中出现（我猜想可能是木马或者什么别的程序），结束这些程序的进程后，过了一会又出现了。我就猜想在这些程序后面，是不是还有一个程序负责在它们的进程被结束后，再次启动它们。我沿着这个想法就写了这个**Periodic Checker**。  
-Period Checker 主要有下买几个部分:
+Period Checker 主要有下买几个部分:   
 **1. ApplicationProcess**
 `ProcessException`
 `ProcessStatusEventArgs`
