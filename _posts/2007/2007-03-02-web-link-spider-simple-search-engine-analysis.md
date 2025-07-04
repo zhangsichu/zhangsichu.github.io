@@ -3,9 +3,6 @@ title: WebLinkSpider 简单搜索引擎分析
 date: 2007-03-02 16:08:14 + 0080
 category: [.Net/Java]
 tags: [Web, C#, Database, GUI, 大制作]
-image:
-  path: /assets/attachments/2007/03/03_144520_52t8weblinkspider.gif
-  show_top: false
 ---
 
 **WebLinkSpider** 网络爬虫。很多网站都会发现，经常有搜索引擎在访问自己的网站。搜索引擎访问网站是为了采集这个网站的信息，为搜索引擎提供内容服务。这种爬虫就是从页面中的一个链接跳到另一链接就这样一次又一次的跳，收集每个页面的信息，存储起来，为搜索引擎提供内容服务。

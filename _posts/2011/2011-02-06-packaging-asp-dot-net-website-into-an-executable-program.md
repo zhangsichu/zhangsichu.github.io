@@ -3,9 +3,6 @@ title: 打包Asp.Net 网站成为一个exe 方便快捷的进行客户演示
 date: 2011-02-06 00:31:46 + 0080
 category: [Web开发]
 tags: [C#, Web, Software Development, 大制作]
-image:
-  path: /assets/attachments/2011/02/06_002743_yvn2SingleRunner.gif
-  show_top: false
 ---
 
 在 `Asp` 时代有一个 `NetBox` 产品可以把整个 `Asp` 网站 `AllInOne` 的打包成一个 `exe`，在没有 `IIS` 的情况下可以单独运行这个exe来开启整个网站。在 `Asp.Net` 下一直没有类似的产品出现，可能是 `IIS` 已经非常的强大了，不需要类似的产品了? 但是在某种场景下还是需要一个类似功能的产品的，这个产品不是用来部分替代 `IIS` 来做一个轻量级的IIS，而是用来方便快捷的进行客户展示。  

@@ -3,9 +3,6 @@ title: 2006 大制作之 DailyReportService
 date: 2006-04-23 18:20:25 + 0080
 category: [.Net/Java]
 tags: [C#, GUI, Design, Software Development, 大制作]
-image:
-  path: /assets/attachments/2006/04/23_184616_pmesapplication1.jpg
-  show_top: false
 ---
 
 什么叫做DailyReportService呢？DailyReportService是一个Windows Service加一个DailyReportApplication Windows应用程序。完成每日的工作情况的记录和描述。如下图当程序成功安装后会在Windows Service中多一个`Windows Service DailyReportService`:  

@@ -228,7 +228,6 @@ CSS3媒体选择器根据当前媒体的`min-width`来加载不同的`li#f-mycro
 1. 由于分辨率变化，根据需要变化显示方式的元素，加入媒体选择器。  
 
 ### 相关工具
-1. http://filamentgroup.com/lab/respondjs_fast_css3_media_queries_for_internet_explorer_6_8_and_more/
 1. http://mattkersley.com/responsive/  
 1. http://resizemybrowser.com/
 1. http://seesparkbox.com/foundry/media_query_bookmarklet
