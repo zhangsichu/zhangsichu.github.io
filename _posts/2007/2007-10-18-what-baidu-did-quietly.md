@@ -44,8 +44,7 @@ function c(e,b,u,s,p,t){if(document.images){var p=window.document.location.href;
 
 究竟baidu为什么要用`img`的`src`来`post`数据给服务器？是要绕过`XmlHttpRequest`的跨域问题，是只`Post`不关心返回内容，而不使用`script`的`src`来`post`数据，估计这只有baidu自己知道吧。  
 
-google 也做了类似这样的事情。不过 google 比百度记录的要多。  
-google 不光统计点击，甚至记录了用户是否在某个搜索结果的链接上悬停过。鼠标在某个区域活动的比较多。  
-用户鼠标移动的顺序位置。  
-google 的 `Script` 混淆后比较难懂 `http://www.google.cn/extern_js/f/CgV6aC1DThICY24rMAo4ASw/TXlNyPshIOk.js`   
+google 也做了类似这样的事情，不过 google 比百度记录的要多。google 不光统计点击，甚至记录了用户是否在某个搜索结果的链接上悬停过，鼠标在某个区域活动的比较多，用户鼠标移动的顺序位置。
+
+google 的 `Script` 混淆后比较难懂：`http://www.google.cn/extern_js/f/CgV6aC1DThICY24rMAo4ASw/TXlNyPshIOk.js`   
 

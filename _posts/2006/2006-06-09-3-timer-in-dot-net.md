@@ -23,9 +23,9 @@ while(GetMessage (&msg))
 注意：由于Elapsed event由线程池中的线程出发，存在着这样的可能：event 的处理函数正在执行，而另一个线程池中的线程调用的 `Timer.Stop()`,这将导致在 `Timer.Stop()` 调用后Elapsed event仍可被触发。使用`Interlocked.CompareExchange()` 可以避免这种情况。  
 
 ### System.Threading.Timer - Class
-`System.Threading.Timer` class 在代码中使用,不依赖于OS的Timer使用 TimerCallback delegate 来指定需要执行的函数,这个函数将执行在线程池的线程中,而不是生成 `System.Threading.Timer` 的线程中。在timer生成后，可以使用`System.Threading.Timer.Change()` 来重新定义Timer的等待时间和执行间隔时间。  
-注意：如果使用了`System.Threading.Timer`，就要保持对Timer的引用，否则：Timer将会被GC回收，使用`Timer.Dispose()`可以释放Timer所占用的资源。由于callback函数由线程池中的线程执行,如果timer的interval值小于callback函数的执行时间，callback函数会被多个线程执行。如果线程池中的线程被用光，Callback函数会排队等待，不能如期执行。  
+`System.Threading.Timer` class 在代码中使用,不依赖于OS的Timer使用 TimerCallback `delegate` 来指定需要执行的函数,这个函数将执行在线程池的线程中,而不是生成 `System.Threading.Timer` 的线程中。在timer生成后，可以使用`System.Threading.Timer.Change()` 来重新定义Timer的等待时间和执行间隔时间。  
+注意：如果使用了`System.Threading.Timer`，就要保持对Timer的引用，否则：Timer 将会被 **GC** 回收，使用`Timer.Dispose()`可以释放Timer所占用的资源。由于`callback`函数由线程池中的线程执行,如果timer的`interval`值小于`callback`函数的执行时间，`callback`函数会被多个线程执行。如果线程池中的线程被用光，`callback`函数会排队等待，不能如期执行。  
 
 
-`ThreadPool` 线程池中的线程为后台线程,其IsBackgroud为true, 当application的所有前台线程执行完毕后,就算是线程池中的线程仍在执行，application也会结束。  
+`ThreadPool` 线程池中的线程为后台线程,其`IsBackgroud`为`true`, 当application的所有前台线程执行完毕后,就算是线程池中的线程仍在执行，application也会结束。  
 

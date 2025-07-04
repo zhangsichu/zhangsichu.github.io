@@ -59,7 +59,6 @@ myins.SomeProperty = 10; //正常
 myins = new MyClass(); //出错，该对象是只读的  
 
 //但是，如果上例中的MyClass不是一个class而是一个struct，那么后面的两个语句就都会出错。  
-
 //static readonly的field可以被反射修改。  
 
 using System;  

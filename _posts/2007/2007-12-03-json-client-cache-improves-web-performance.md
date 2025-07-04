@@ -36,23 +36,23 @@ tags: [Web, Cache, Performance, 大制作]
 <script type="text/javascript" language="javascript">  
 for(var country=0; country<1 /*allUnivList.length*/; country++) {  
     //Country  
-    //document.writeln("Country Name: " + allUnivList[country]["name"] + " Country ID: " + allUnivList[country]["id"] + " <br/>"); 
+    document.writeln("Country Name: " + allUnivList[country]["name"] + " Country ID: " + allUnivList[country]["id"] + "<br/>"); 
 
     //Province  
     for(var province=0; province<allUnivList[country].provs.length; province++) {  
         //Build Province  
-        //document.writeln("ProvinceName:" + allUnivList[country].provs[province]["name"] + "@@@@@ProvinceID:" + allUnivList[country].provs[province]["id"] + "<br/>"); 
+        document.writeln("ProvinceName:" + allUnivList[country].provs[province]["name"] + "@@@@@ProvinceID:" + allUnivList[country].provs[province]["id"] + "<br/>"); 
 
         //University  
         for(var university=0; university<allUnivList[country].provs[province].univs.length; university ++) {  
-            //document.writeln("UniversityName:" + allUnivList[country].provs[province].univs[university]["name"] + "@@@@@UniversityID:" + allUnivList[country].provs[province].univs[university]["id"] + "<br/>"); 
+            document.writeln("UniversityName:" + allUnivList[country].provs[province].univs[university]["name"] + "@@@@@UniversityID:" + allUnivList[country].provs[province].univs[university]["id"] + "<br/>"); 
             document.writeln(allUnivList[country].provs[province]["name"] + "::" + allUnivList[country].provs[province]["id"] + "::" + allUnivList[country].provs[province].univs[university]["name"] + "::" + allUnivList[country].provs[province].univs[university]["id"] + "<br/>"); 
         }  
 
-    //document.writeln("<br/>"); 
+        document.writeln("<br/>"); 
     }
-
-//document.writeln("<br/>"); 
+    
+    document.writeln("<br/>"); 
 }  
 </script>  
 

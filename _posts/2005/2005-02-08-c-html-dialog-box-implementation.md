@@ -1,8 +1,8 @@
 ---
-title: C++ HTML对话框的实现[转载]
+title: C++ HTML对话框的实现
 date: 2005-02-08 12:31:56 + 0800
 category: [C++/C]
-tags: [C++/C, HTML, 转载]
+tags: [C++/C, HTML]
 ---
 
 ###### 开发环境：VS7，Windows XP，Windows 2K

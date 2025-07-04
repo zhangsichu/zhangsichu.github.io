@@ -153,7 +153,7 @@ if (link != null) {
 } //第二个参数写想要传回来的参数。  
 ```
 
-3. Override Page的 `RaisePostBackEvent` 方法。
+3. Override Page 的 `RaisePostBackEvent` 方法。
 
 ```c#
 base.RaisePostBackEvent(sourceControl, eventArgument);  

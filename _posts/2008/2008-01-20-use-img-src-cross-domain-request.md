@@ -100,7 +100,8 @@ function RemoveEventHandle(target,eventType,handler)
 
 function window_onload() { 
     var links = document.getElementsByTagName("A"); 
-//debugger;  
+    
+    //debugger;  
     for(var i=0; i<links.length; i++) 
     {  
         AddEventHandle(links[i] , "click", Function.createDelegate(links[i], countClick));  

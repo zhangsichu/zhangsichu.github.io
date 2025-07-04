@@ -66,10 +66,10 @@ private void FillFieldTable()
 ```c#  
 internal void WriteSingleField(int index)  
 {  
-    if(this._fieldTable == null)  
-    return;  
+    if(this._fieldTable == null)
+        return;  
     if(this._fieldTable.Rows.Count <= index)  
-    return;  
+        return;  
     
     XmlNodeList nodes = this._document.SelectNodes(this._fieldInfo + / + this._fieldTable.Columns[this._uniqueColumnIndex].ColumnName);  
     for(int i = 0;i<this._fieldTable.Rows.Count;i++)  
