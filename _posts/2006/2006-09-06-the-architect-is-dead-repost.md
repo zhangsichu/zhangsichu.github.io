@@ -1,8 +1,8 @@
 ---
-title: 构架师已死
+title: 构架师已死[转载]
 date: 2006-09-06 16:37:10 + 0080
 category: [杂事/随感]
-tags: [Software Development, Life]
+tags: [Software Development, Life, 转载]
 ---
 
 公司的同事发了一篇贴 我觉得满有意义 就放到上面了。  
