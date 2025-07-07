@@ -3,8 +3,7 @@ title: 西安城的大年初一
 date: 2005-02-09 12:46:06 + 0800
 category: [杂事/随感]
 tags: [随感, Life, 新年]
-image: 
-  path: /assets/attachments/2005/02/09_184533_he7k5.gif
+image: /assets/attachments/2005/02/09_184533_he7k5.gif
 ---
 
 挥手别圣猴，金鸡啼新春。2005年2月9号中国农历的大年初一，在这一天里西安城会是什么样子呢？  

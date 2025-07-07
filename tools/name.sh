@@ -66,4 +66,11 @@ filename_combined=$(echo "$filename_combined" | tr '[:upper:]' '[:lower:]' | tr 
 # Combine all parts: DD_HHMMSS_randomOriginalName.ext
 new_filename="${formatted_day}_${current_time}_${filename_combined}.${file_extension}"
 
-echo "$new_filename" 
+# Rename the original file to the new filename
+if [ -f "$original_filename" ]; then
+    mv "$original_filename" "$new_filename"
+    echo "File renamed: $original_filename -> $new_filename"
+else
+    echo "Error: Original file '$original_filename' not found"
+    exit 1
+fi
