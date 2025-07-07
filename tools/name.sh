@@ -59,7 +59,11 @@ fi
 # Generate random 2-digit number
 random_number=$(printf "%02d" $((RANDOM % 100)))
 
+# Combine filename parts and convert to lowercase, remove underscores
+filename_combined="${random_chars}${filename_part}${filename_part_end}${random_number}"
+filename_combined=$(echo "$filename_combined" | tr '[:upper:]' '[:lower:]' | tr -d '_')
+
 # Combine all parts: DD_HHMMSS_randomOriginalName.ext
-new_filename="${formatted_day}_${current_time}_${random_chars}${filename_part}${filename_part_end}${random_number}.${file_extension}"
+new_filename="${formatted_day}_${current_time}_${filename_combined}.${file_extension}"
 
 echo "$new_filename" 
