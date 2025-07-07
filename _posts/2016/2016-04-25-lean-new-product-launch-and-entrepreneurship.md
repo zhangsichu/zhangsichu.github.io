@@ -122,3 +122,13 @@ image:
 ![refine loop again](/assets/attachments/2016/04/25_145837_1xp416.png)  
 
 **最终通过精益创业，MVP的方式，打磨抛光出用户由衷喜欢的精致产品！**
+
+[腾讯社区-精益的新产品启动与技术创业（上）](https://cloud.tencent.com/developer/article/1104283){:target="_blank"}
+
+[腾讯社区-精益的新产品启动与技术创业（下）](https://cloud.tencent.com/developer/article/1104286){:target="_blank"}
+
+[QCon 演讲](http://2016.qconbeijing.com/presentation/2850/){:target="_blank"}
+
+[**PPT**](https://docs.huihoo.com/infoq/qconbeijing/2016/day3/%E6%8A%80%E6%9C%AF%E5%88%9B%E4%B8%9A%E4%B8%93%E9%A2%98/6-3-%E7%B2%BE%E7%9B%8A%E7%9A%84%E6%96%B0%E4%BA%A7%E5%93%81%E5%90%AF%E5%8A%A8%E4%B8%8E%E6%8A%80%E6%9C%AF%E5%88%9B%E4%B8%9A-%E5%BC%A0%E6%80%9D%E6%A5%9A.pdf){:target="_blank"}
+
+[**PPT下载**](/assets/attachments/2016/04/25_102200_10f6leahip07.pdf)
