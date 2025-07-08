@@ -4,7 +4,8 @@ date: 2016-04-25 14:20:16 + 0080
 category: [软件工程]
 tags: [Design, Product]
 image:
-  path: /assets/attachments/2016/04/25_142427_74v01.jpg
+  path: /assets/attachments/2016/04/25_130313_a9b1bei6.png
+  show_top: false
 ---
 
 精益的新产品启动与技术创业--用真正对用户有价值的技术和产品去创业  
@@ -14,6 +15,9 @@ image:
 借古比今，站在巨人的肩膀上好办事。近代历史上有那些成功的精益创业案例供我们参考呢？看看二战后的美国福特和日本丰田。
 
 二战结束时，福特已经掌握了成熟的T型车生产线。但是在战后物资耗尽的日本，丰田必须白手起家，重新开始摸索。福特和丰田都是要制造一部车。  
+
+![Ford&Toyota](/assets/attachments/2016/04/25_142427_74v01.jpg)
+
 福特：稳定、大批量、执行计划：  
 ![Ford](/assets/attachments/2016/04/25_142529_if8m2.png)  
 
@@ -127,4 +131,4 @@ image:
 
 [腾讯社区-精益的新产品启动与技术创业（下）](https://cloud.tencent.com/developer/article/1104286){:target="_blank"}
 
-[QCon 演讲](http://2016.qconbeijing.com/presentation/2850/){:target="_blank"}   [**PPT**](https://docs.huihoo.com/infoq/qconbeijing/2016/day3/%E6%8A%80%E6%9C%AF%E5%88%9B%E4%B8%9A%E4%B8%93%E9%A2%98/6-3-%E7%B2%BE%E7%9B%8A%E7%9A%84%E6%96%B0%E4%BA%A7%E5%93%81%E5%90%AF%E5%8A%A8%E4%B8%8E%E6%8A%80%E6%9C%AF%E5%88%9B%E4%B8%9A-%E5%BC%A0%E6%80%9D%E6%A5%9A.pdf){:target="_blank"}   [**PPT下载**](/assets/attachments/2016/04/25_102200_10f6leahip07.pdf){:target="_blank"}
+[QCon2016 北京演讲](http://2016.qconbeijing.com/presentation/2850/){:target="_blank"}   [**PPT**](https://docs.huihoo.com/infoq/qconbeijing/2016/day3/%E6%8A%80%E6%9C%AF%E5%88%9B%E4%B8%9A%E4%B8%93%E9%A2%98/6-3-%E7%B2%BE%E7%9B%8A%E7%9A%84%E6%96%B0%E4%BA%A7%E5%93%81%E5%90%AF%E5%8A%A8%E4%B8%8E%E6%8A%80%E6%9C%AF%E5%88%9B%E4%B8%9A-%E5%BC%A0%E6%80%9D%E6%A5%9A.pdf){:target="_blank"}   [**PPT下载**](/assets/attachments/2016/04/25_102200_10f6leahip07.pdf){:target="_blank"}
