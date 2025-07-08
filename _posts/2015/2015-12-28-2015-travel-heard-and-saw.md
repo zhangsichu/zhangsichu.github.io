@@ -23,7 +23,7 @@ image: /assets/attachments/2015/12/28_095056_0da620135707.jpg
 ![](/assets/attachments/2015/12/28_100230_cde9wei04542.jpg)     
 
 
-### 10月美国纽苹果&微软
+### 10月美国纽苹果和微软
 
 ![10月美国纽联苹果](/assets/attachments/2015/12/28_100230_e734wei09247.jpg)     
 
