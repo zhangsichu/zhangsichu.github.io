@@ -8,20 +8,19 @@ image: /assets/attachments/2015/12/28_095056_0da620135707.jpg
 
 ### 10月美国纽中央公园
 
-![](/assets/attachments/2015/12/28_100230_0fe2wei77300.jpg)     
+![10月美国纽中央公园](/assets/attachments/2015/12/28_100230_0fe2wei77300.jpg)     
 
-![](/assets/attachments/2015/12/28_100229_2ac6wei51720.jpg)     
+![10月美国纽中央公园](/assets/attachments/2015/12/28_100229_2ac6wei51720.jpg)     
 
-![](/assets/attachments/2015/12/28_100230_bafewei90962.jpg)     
+![10月美国纽中央公园](/assets/attachments/2015/12/28_100230_bafewei90962.jpg)     
 
-![](/assets/attachments/2015/12/28_100229_32e2wei62098.jpg)     
+![10月美国纽中央公园](/assets/attachments/2015/12/28_100229_32e2wei62098.jpg)     
 
-![](/assets/attachments/2015/12/28_100229_b9fcwei70047.jpg)     
+![10月美国纽中央公园](/assets/attachments/2015/12/28_100229_b9fcwei70047.jpg)     
 
-![](/assets/attachments/2015/12/28_100231_e1e3wei15733.jpg)     
+![10月美国纽中央公园](/assets/attachments/2015/12/28_100231_e1e3wei15733.jpg)     
 
-![](/assets/attachments/2015/12/28_100230_cde9wei04542.jpg)     
-
+![10月美国纽中央公园](/assets/attachments/2015/12/28_100230_cde9wei04542.jpg)     
 
 ### 10月美国纽苹果和微软
 
