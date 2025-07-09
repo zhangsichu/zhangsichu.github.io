@@ -90,7 +90,9 @@ image: /assets/attachments/2015/12/28_095056_0da620135707.jpg
 
 ![10月美国纽约911纪念馆](/assets/attachments/2015/12/28_100230_04dewei24089.jpg)     
 
-![10月美国纽约911纪念馆](/assets/attachments/2015/12/28_100231_f435wei09576.jpg)     
+![10月美国纽约911纪念馆](/assets/attachments/2015/12/28_100231_f435wei09576.jpg)
+
+![10月美国纽约911纪念馆](/assets/attachments/2015/12/28_131504_a48d20161409.jpg)
 
 ### 10月美国纽约
 
