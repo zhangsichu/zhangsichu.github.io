@@ -3,7 +3,7 @@ title: 如何创建并组织一个社区
 date: 2019-06-29 12:26:23 + 0080
 category: [杂事/随感]
 tags: [社区, Life, Software Development]
-image: /assets/attachments/2019/06/29_114551_3f9gdg0600.png
+image: /assets/attachments/2019/06/29_114551_3f9gdg0600.jpg
 ---
 
 ### 前言
