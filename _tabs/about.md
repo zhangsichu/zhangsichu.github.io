@@ -55,19 +55,19 @@ Seasoned software architect and engineering leader with 19+ years of experience 
 
 ## Publications
 
-* **[How much faster can coding assistants really make software delivery?](https://www.thoughtworks.com/en-sg/insights/blog/generative-ai/how-faster-coding-assistants-software-delivery)** 
-* **[Finding appropriate software development effectiveness metrics](https://www.thoughtworks.com/en-au/insights/articles/finding-appropriate-software-development-effectiveness-metrics)**
-* **[Engineering productivity governance and improvement in software delivery](https://www.thoughtworks.com/insights/articles/engineering-productivity-governance-and-improvement-in-software-)** 
+* **[How much faster can coding assistants really make software delivery?](https://www.thoughtworks.com/en-sg/insights/blog/generative-ai/how-faster-coding-assistants-software-delivery){:target="_blank"}** 
+* **[Finding appropriate software development effectiveness metrics](https://www.thoughtworks.com/en-au/insights/articles/finding-appropriate-software-development-effectiveness-metrics){:target="_blank"}**
+* **[Engineering productivity governance and improvement in software delivery](https://www.thoughtworks.com/insights/articles/engineering-productivity-governance-and-improvement-in-software-){:target="_blank"}** 
 
 ---
 
 ## Presentations & Community Engagement
 
-* **QCon Beijing 2016:** [Lean New Product Startup and Technology Startup](http://2016.qconbeijing.com/speakers/201942)
-* **.NET Xi’an Developer Group:** [Verifying Microservices by Contract Testing in .NET Core (PACT)](https://www.cnblogs.com/xiandnc/p/10765346.html)
-* **Google developers 2019 Northeast Asia GDG Summit:** [How to run and organize a community](https://gdg.community.dev/u/mpjdy9/)
-* **Top 100 Summits 2019:** [Capability building and quality assurance of the team in rapid expansion](https://www.top100summit.com/detail?id=14087)
-* **Top 100 Summits 2020:** [Digital visualization, insights and improvement of R&D efficiency](https://www.top100summit.com/detail?id=14882)
-* **Organizer & Mentor:** Mentor and speaker at multiple tech communities (GDG, AWS UG, .NET, AgileTour)
+* **QCon Beijing 2016:** [Lean New Product Startup and Technology Startup](http://2016.qconbeijing.com/speakers/201942){:target="_blank"}
+* **.NET Xi’an Developer Group:** [Verifying Microservices by Contract Testing in .NET Core (PACT)](https://www.cnblogs.com/xiandnc/p/10765346.html){:target="_blank"}
+* **Google developers 2019 Northeast Asia GDG Summit:** [How to run and organize a community](https://gdg.community.dev/u/mpjdy9/){:target="_blank"}
+* **Top 100 Summits 2019:** [Capability building and quality assurance of the team in rapid expansion](https://www.top100summit.com/detail?id=14087){:target="_blank"}
+* **Top 100 Summits 2020:** [Digital visualization, insights and improvement of R&D efficiency](https://www.top100summit.com/detail?id=14882){:target="_blank"}
+* **Organizer & Mentor:** Mentor and speaker at multiple tech communities ([GDG](https://gdg.community.dev/gdg-xian/){:target="_blank"}, AWS UG, [.NET](https://www.cnblogs.com/xiandnc/p/11318035.html){:target="_blank"}, AgileTour)
 
 ---
