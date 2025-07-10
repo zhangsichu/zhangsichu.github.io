@@ -1,7 +1,7 @@
 ---
 title: 2014出游&见闻
 date: 2014-12-26 22:27:42 + 0080
-category: [杂事/随感]
+category: [随感/生活]
 tags: [Life, Travel]
 image: /assets/attachments/2014/12/26_192053_0c40wei99313.jpg
 ---

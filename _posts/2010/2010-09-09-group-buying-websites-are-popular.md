@@ -1,7 +1,7 @@
 ---
 title: 团购网火了？
 date: 2010-09-09 10:27:31 + 0080
-category: [杂事/随感]
+category: [随感/生活]
 tags: [随感, Life]
 ---
 

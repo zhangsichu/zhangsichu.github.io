@@ -1,7 +1,7 @@
 ---
 title: 2017出游&见闻
 date: 2017-12-30 12:31:24 + 0080
-category: [杂事/随感]
+category: [随感/生活]
 tags: [Life, Travel]
 image: /assets/attachments/2017/12/30_134139_c4693042108.jpg
 ---

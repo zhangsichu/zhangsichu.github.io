@@ -1,7 +1,7 @@
 ---
 title: 安康春游
 date: 2007-04-23 09:35:56 + 0080
-category: [杂事/随感]
+category: [随感/生活]
 tags: [Life, 随感]
 ---
 

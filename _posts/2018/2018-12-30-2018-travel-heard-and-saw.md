@@ -1,7 +1,7 @@
 ---
 title: 2018出游&见闻
 date: 2018-12-30 21:42:33 + 0080
-category: [杂事/随感]
+category: [随感/生活]
 tags: [Life, Travel]
 image: /assets/attachments/2018/12/30_160850_680e3034584.jpg
 ---

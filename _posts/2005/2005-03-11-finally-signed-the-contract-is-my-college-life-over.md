@@ -1,7 +1,7 @@
 ---
 title: 终于签约了 - 我的大学结束了吗？
 date: 2005-03-11 22:53:51 + 0800
-category: [杂事/随感]
+category: [随感/生活]
 tags: [随感, Life]
 image:
   path: /assets/attachments/2005/03/06_085942_wtlzbackground.jpg

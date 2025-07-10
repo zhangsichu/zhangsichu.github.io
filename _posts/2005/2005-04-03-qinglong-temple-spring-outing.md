@@ -1,7 +1,7 @@
 ---
 title: 青龙寺 - 踏春
 date: 2005-04-03 15:32:38 + 0080
-category: [杂事/随感]
+category: [随感/生活]
 tags: [Life, Travel]
 image:
   path: /assets/attachments/2005/04/03_172738_63u913.gif

@@ -1,7 +1,7 @@
 ---
 title: 想到一些
 date: 2007-02-05 11:16:28 + 0080
-category: [杂事/随感]
+category: [随感/生活]
 tags: [随感, Life]
 ---
 

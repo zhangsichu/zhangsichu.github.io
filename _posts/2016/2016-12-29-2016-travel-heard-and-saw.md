@@ -1,7 +1,7 @@
 ---
 title: 2016出游&见闻
 date: 2016-12-29 22:21:32 + 0080
-category: [杂事/随感]
+category: [随感/生活]
 tags: [Life, Travel]
 image: /assets/attachments/2016/12/29_123851_f1192944043.jpg
 ---

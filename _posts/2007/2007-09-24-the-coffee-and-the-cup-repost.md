@@ -1,7 +1,7 @@
 ---
 title: The Coffee and the Cup[转载]
 date: 2007-09-24 15:02:05 + 0080
-category: [杂事/随感]
+category: [随感/生活]
 tags: [Life, 随感]
 ---
 

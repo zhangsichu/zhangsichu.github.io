@@ -1,7 +1,7 @@
 ---
 title: 西安城的大年初一
 date: 2005-02-09 12:46:06 + 0800
-category: [杂事/随感]
+category: [随感/生活]
 tags: [随感, Life, 新年]
 image: /assets/attachments/2005/02/09_184533_he7k5.gif
 ---

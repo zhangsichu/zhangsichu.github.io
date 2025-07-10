@@ -1,7 +1,7 @@
 ---
 title: 冰晶顶 - 登山
 date: 2005-05-07 13:47:49 + 0800
-category: [杂事/随感]
+category: [随感/生活]
 tags: [Life, Travel]
 image: /assets/attachments/2005/05/07_134746_tqix22.jpg
 ---

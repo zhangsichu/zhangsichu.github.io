@@ -1,7 +1,7 @@
 ---
 title: 构架师已死[转载]
 date: 2006-09-06 16:37:10 + 0080
-category: [杂事/随感]
+category: [随感/生活]
 tags: [Software Development, Life, 转载]
 ---
 

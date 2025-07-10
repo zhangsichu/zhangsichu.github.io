@@ -1,8 +1,8 @@
 ---
 title: 2019 Northeast Asia GDG Summit 
 date: 2019-09-17 17:21:31 + 0080
-category: [杂事/随感]
-tags: [社区, Life, Software Development]
+category: [社区/演讲]
+tags: [社区, 演讲, Life, Software Development]
 image: /assets/attachments/2019/09/17_112105_10faasdddd27.jpg
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: 花样加班
 date: 2006-12-28 19:31:41 + 0080
-category: [杂事/随感]
+category: [随感/生活]
 tags: [Life, 随感]
 ---
 

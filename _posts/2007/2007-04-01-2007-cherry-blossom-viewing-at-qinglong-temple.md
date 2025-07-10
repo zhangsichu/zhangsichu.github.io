@@ -1,7 +1,7 @@
 ---
 title: 2007 青龙寺看樱花
 date: 2007-04-01 14:38:07 + 0080
-category: [杂事/随感]
+category: [随感/生活]
 tags: [Life, Travel, 随感]
 image:
   path: /assets/attachments/2007/04/01_143804_sphw4.gif

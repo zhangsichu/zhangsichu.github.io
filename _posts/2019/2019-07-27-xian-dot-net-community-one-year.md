@@ -1,8 +1,8 @@
 ---
 title: .NET西安社区壹周年线下Party
 date: 2019-07-27 23:11:22 + 0080
-category: [杂事/随感]
-tags: [社区, Life, Software Development]
+category: [社区/演讲]
+tags: [社区, 演讲, Life, Software Development]
 image: /assets/attachments/2019/07/27_100901_247214187213.png
 ---
 

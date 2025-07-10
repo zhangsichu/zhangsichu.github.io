@@ -1,7 +1,7 @@
 ---
 title: 2015出游&见闻
 date: 2015-12-28 23:12:21 + 0080
-category: [杂事/随感]
+category: [随感/生活]
 tags: [Life, Travel]
 image: /assets/attachments/2015/12/28_095056_0da620135707.jpg
 ---

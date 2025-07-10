@@ -1,7 +1,7 @@
 ---
 title: 2013出游&见闻  
 date: 2013-12-22 21:37:29 + 0080  
-category: [杂事/随感]
+category: [随感/生活]
 tags: [Life, Travel]
 image: /assets/attachments/2013/12/22_120605_6265wp00201.jpg
 ---

@@ -1,7 +1,7 @@
 ---
 title: Say thanks to the past 2006
 date: 2007-01-02 18:37:47 + 0080
-category: [杂事/随感]
+category: [随感/生活]
 tags: [Life, 新年]
 ---
 

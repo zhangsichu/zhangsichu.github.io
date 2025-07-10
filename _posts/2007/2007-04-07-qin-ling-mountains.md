@@ -1,7 +1,7 @@
 ---
 title: 出游秦岭
 date: 2007-04-07 23:36:05 + 0080
-category: [杂事/随感]
+category: [随感/生活]
 tags: [Life, 随感]
 image:
   path: /assets/attachments/2007/04/07_233615_eb4hqingrngu1.gif
