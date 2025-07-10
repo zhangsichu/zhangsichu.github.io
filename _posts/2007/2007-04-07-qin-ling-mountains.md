@@ -4,7 +4,7 @@ date: 2007-04-07 23:36:05 + 0080
 category: [随感/生活]
 tags: [Life, 随感]
 image:
-  path: /assets/attachments/2007/04/07_233615_eb4hqingrngu1.gif
+  path: /assets/attachments/2007/04/07_233626_liaoqingrngu2.gif
   show_top: false
 ---
 
