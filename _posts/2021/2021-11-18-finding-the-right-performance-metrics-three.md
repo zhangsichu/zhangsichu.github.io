@@ -125,4 +125,8 @@ _基于项目类型的效能指标推荐图_
 * 变更失败率 (Change Failure Rate)
 * 服务恢复耗时 (Time to restore service)
 
-[**公司微信公众号发布**](https://mp.weixin.qq.com/s/qxIs-FsbiPpMe465dUM56A){:target="_blank"}
+---
+
+相关发布
+* [**公司微信公众号发布**](https://mp.weixin.qq.com/s/qxIs-FsbiPpMe465dUM56A){:target="_blank"}
+* [**完整英文版**](/posts/finding-appropriate-software-development-effectiveness-metrics/){:target="_blank"}
