@@ -8,11 +8,13 @@ tags: [Web, Software Development]
 前几天需要将现有Asp.Net程序的Session存入SqlServer 同事整理了配置Sql的过程。  
 注意：存入SqlServer的Session对象必须支持序列化。  
 
-1) Run the slq script on the sql server
-`%windir%\Microsoft.NET\Framework\version\InstallPersistSqlState.sql`  
+1) Run the slq script on the sql server.
+```bat
+%windir%\\Microsoft.NET\\Framework\\version\\InstallPersistSqlState.sql
+```
 It will create a database named `ASPState` We should config the permission for asp.net process in this database.  
 
-2) Modify the web.config
+2) Modify the web.config.
 ```xml
 <system.web>  
     <sessionState mode="SQLServer" sqlConnectionString="data source=servername;user id=uid;password=pwd" cookieless="false" timeout="30" stateNetworkTimeout="20"/>  
