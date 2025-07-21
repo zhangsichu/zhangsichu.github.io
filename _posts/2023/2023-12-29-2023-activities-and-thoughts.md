@@ -6,7 +6,7 @@ tags: [Life, Travel, 随感]
 image: /assets/attachments/2023/12/29_111932_c41d2901954.jpg
 ---
 
-### 2023 出行越南河内
+### 2023 出行越南胡志明
 
 ![2023出行越南河内](/assets/attachments/2023/12/29_111926_b74c2925724.jpg)        
 
