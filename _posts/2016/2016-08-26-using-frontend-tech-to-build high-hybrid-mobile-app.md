@@ -36,5 +36,5 @@ image:
 
 ![会场实况](/assets/attachments/2016/08/26_112808_1694wei54602.jpg)
 
-[**PPT下载**](/assets/attachments/2016/08/26_091247_bf510toapp02.pdf){:target="_blank"}
+[**PPT**](/assets/attachments/2016/08/26_091247_bf510toapp02.pdf){:target="_blank"}
 
