@@ -13,12 +13,7 @@ The metric that dominates discussions about the impact of coding assistants on s
 While equating productivity with speed is certainly open to question, we don’t wish to explore that here — we’ll look specifically at how a coding assistant can improve speed. True, speed itself can be difficult to pin down; however, in the context of software delivery, the best proxy variable we have for speed is story cycle time. To get an idea for the ballpark of cycle time improvements that are possible with a coding assistant, we have been using a heuristic — a kind of hypothesis about team gains when using a coding assistant — over the past year, and have been comparing it with the data and anecdata we receive from our teams and our clients.
 
 ## Our heuristic for estimating time saved using a coding assistant
-
-| Scenario | Part of cycle time <br /> spent on coding | Part of coding supportable <br /> with coding assistant | Rate of task completion <br /> with coding assistant | Estimated time <br /> saved in cycle time |
-| -------- | -------- | -------- | -------- | -------- |
-| Optimistic | 40% | 60% | 55% | 13% |
-| Average | 30% | 50% | 45% | 7% |
-| Pessimistic | 20% | 40% | 25% | 2% |
+![estimating table](/assets/attachments/2025/02/19_130932_65e91kltg01.webp)
 
 We make the following assumptions for the “Optimistic” scenario in the table:
 
@@ -33,14 +28,7 @@ Those assumptions lead to a maximum decrease in cycle time of 13% — for this s
 Let’s put this estimation to a test with a case study. At one of our clients, our teams gathered data about their usage of GitHub Copilot, and documented their estimations of how much time they saved.
 
 The team tracked 150 tickets over time and documented task type, Copilot usage and estimated time saved:
-
-| Ticket | Copilot used? | Reason for (non-)usage | Estimated time saved |
-| ------ | ------------- | ---------------------- | -------------------- |
-| XXX-345 | Yes | Generated business code | 30% |
-| XXX-362 | No | Bug fix for a known issue that only needs a tiny code change | n/a |
-| XXX-385 | Yes | Generated code and test data<br/> | 40% |
-| XXX-347 | Yes | Generated shell scripts | 50% |
-| XXX-312 | No | Spike with lots of research | n/a |
+![estimated time saved](/assets/attachments/2025/02/19_130926_f97f1dhxa50.webp)
 
 ### Overall estimation of time savings
 
@@ -60,12 +48,7 @@ Based on the overall number of tickets, and the estimations of time saved per ti
 * Development work accounted for about 55% of the team's total time.
 * This means there was an approximate cycle time improvement of about 8% in this particular case.
 
-| Scenario | Part of cycle time <br /> spent on coding | Part of coding supportable <br /> with coding assistant | Rate of task completion <br /> with coding assistant | Estimated time <br /> saved in cycle time |
-| -------- | -------- | -------- | -------- | -------- |
-| Optimistic | 40% | 60% | 55% | 13% |
-| Average | 30% | 50% | 45% | 7% |
-| Pessimistic | 20% | 40% | 25% | 2% |
-| **This case** | **55%** | **50%** | **30%** | **8%** |
+![estimated time saved](/assets/attachments/2025/02/19_130937_9eb51if2q92.webp)
 
 ## What was Copilot used for?
 
