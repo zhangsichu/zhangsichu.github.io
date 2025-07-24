@@ -1,0 +1,36 @@
+<html>
+
+<head>
+    <title>CLI - Blog</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="themes/cli-blog.css">
+    <script language="javascript" type="text/javascript" src="scripts/cli-blog.js"></script>
+</head>
+
+<body onkeydown="doKey();" onload="doKey();" style="overflow: hidden">
+    <div id="screen" style="overflow: auto; height: 100%;">
+        <div id="display">
+            <h1>
+                ZhangSichu-Blog</h1>
+            <noscript>
+                <p style="height: 100%">
+                    Sorry, the CLI requires JavaScript to work. Please turn on JavaScript, or try the
+                    <a href="/">GUI Interface</a>.
+                </p>
+            </noscript>
+            <p>
+                Welcome. If you find command-line interfaces scary, there is a GUI for the blog
+                available <a href="/">here</a> . Otherwise, type 'help' for assistance.
+            </p>
+        </div>
+        <div>
+            <form onsubmit="return false;" id="form">
+                <pre><span id="prompt">guest@zhangsichu-blog:/$ </span><span id="command"></span><input
+                    type="text" onchange="doCmd(this.value)" onkeyup="showType(this.value);" value=""
+                    autocomplete="off" name="input" id="input" /><img id="cursor" alt="_" src="images/cli-cursor.gif" /></pre>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
