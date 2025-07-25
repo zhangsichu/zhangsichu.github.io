@@ -12,10 +12,8 @@ document.addEventListener('DOMContentLoaded', () => {
 	var post_id = 0;
 
 	var categoryData = null;
-	var category_id = 0;
 
 	var tagData = null;
-	var tag_id = 0;
 
 	window.doKey = function (event) {
 		if (form != null && form.input != null) {
@@ -75,7 +73,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		}
 
 		if (inputLowerCase == 'help' || inputLowerCase == 'h' || inputLowerCase == '?') {
-			display.innerHTML += "<table><tr><td colspan='2'>ZhangSichu's CLI Blog (c) 2006-2007 ZhangSichu<br /><br /></td><td></td></tr><tr><td colspan='2'>command, alias required [optional]: description<br /><br /></td><td></td></tr><tr><td id='frontCell'>help, h, ?:</td><td>Help (this)</td></tr><tr><td>gui, startx:</td><td>Return to GUI (graphical interface) blog</td></tr><tr><td>ls, dir, list:</td><td>List all posts (ordered by ID/date)</td></tr><tr><td>search, find [search terms]:</td><td>Search posts</td></tr><tr><td>preview, preview [post_id]:</td><td>Preview post # (no post_id: preview current)</td></tr><tr><td>current, cursor [post_id]:</td><td>Show current post_id (set if post_id given, nearest higher if no post matches)</td></tr><tr><td>latest, last, l:</td><td>Move to and preview latest post</td></tr><tr><td>next, n:</td><td>Move to and preview next post</td></tr><tr><td>prev, p:</td><td>Move to and preview previous post</td></tr><tr><td>first, f:</td><td> Move to and preview first post</td></tr><tr><td>random, rand, r:</td><td>Preview random post</td></tr><tr><td>categories:</td><td>List categories</td></tr><tr><td>category cat_id:</td><td>List posts in category</td></tr><tr><td>post_id:</td><td>Preview post</td></tr><tr><td>posteddate:</td><td>List all post posted date.</td></tr><tr><td>date:</td><td>Current date/time</td></tr><tr><td>cls:</td><td>Clear screen</td></tr><tr><td>google [keyword]:</td><td>Google search</td></tr><tr><td><u>Notes</u></td><td>On listings (ls, find, category, pages) you can click a title to view the relevant post/page.</td></tr></table>";
+			display.innerHTML += "<table><tr><td colspan='2'>ZhangSichu's CLI Blog (c) 2006-2007 ZhangSichu<br /><br /></td><td></td></tr><tr><td colspan='2'>command, alias required [optional]: description<br /><br /></td><td></td></tr><tr><td id='frontCell'>help, h, ?:</td><td>Help (this)</td></tr><tr><td>gui, startx:</td><td>Return to GUI (graphical interface) blog</td></tr><tr><td>ls, dir, list:</td><td>List all posts (ordered by ID/date)</td></tr><tr><td>search, find [search terms]:</td><td>Search posts</td></tr><tr><td>preview, preview [post_id]:</td><td>Preview post # (no post_id: preview current)</td></tr><tr><td>current, cursor [post_id]:</td><td>Show current post_id (set if post_id given, nearest higher if no post matches)</td></tr><tr><td>latest, last, l:</td><td>Move to and preview latest post</td></tr><tr><td>next, n:</td><td>Move to and preview next post</td></tr><tr><td>prev, p:</td><td>Move to and preview previous post</td></tr><tr><td>first, f:</td><td> Move to and preview first post</td></tr><tr><td>random, rand, r:</td><td>Preview random post</td></tr><tr><td>categories:</td><td>List categories</td></tr><tr><td>category cat_id:</td><td>List posts in category</td></tr><tr><td>post_id:</td><td>Preview post</td></tr><tr><td>posteddate:</td><td>List all post posted date.</td></tr><tr><td>date:</td><td>Current date/time</td></tr><tr><td>cls:</td><td>Clear screen</td></tr><tr><td>google [keyword]:</td><td>Google search</td></tr><tr><td><u>Notes</u></td><td>On listings (ls, find, category) you can click a title to view the relevant post.</td></tr></table>";
 			scroller();
 			prompt.style.visibility = 'visible';
 			return false;
@@ -175,7 +173,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	}
 
 	var listAPost = function (postId) {
-		return '<tr onclick="cmdPost(' + postId + ')"><td>' + postId + '</td><td onmouseover="javascript:this.className=\'linkyHover\'" onmouseout="javascript:this.className=\'linkyNormal\'" class="linkyNormal">' + postData[postId].title + '</td><td>' + postData[postId].date + '</td></tr>';
+		return '<tr><td>' + postId + '</td><td><a href="javascript:cmdPost(' + postId + ')">' + postData[postId].title + '</a></td><td>' + postData[postId].date + '</td></tr>';
 	}
 
 	var listPosts = function () {
@@ -212,7 +210,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	var listCategories = function () {
 		var result = "<table>";
 		categoryData.forEach((category, index) => {
-			result += '<tr onclick="cmdCategory(' + index + ')"><td onmouseover="javascript:this.className=\'linkyHover\'" onmouseout="javascript:this.className=\'linkyNormal\'" class="linkyNormal">' + category.name + '</td></tr>';
+			result += '<tr><td>' + index + '</td><td><a href="javascript:cmdCategory(' + index + ')">' + category.name + '</a></td></tr>';
 		});
 		result += "<table>";
 		display.innerHTML += result;
@@ -230,7 +228,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	var listTags = function () {
 		var result = "<table>";
 		tagData.forEach((tag, index) => {
-			result += '<tr onclick="cmdTag(' + index + ')"><td onmouseover="javascript:this.className=\'linkyHover\'" onmouseout="javascript:this.className=\'linkyNormal\'" class="linkyNormal">' + tag.name + '</td></tr>';
+			result += '<tr><td>' + index + '</td><td><a href="javascript:cmdTag(' + index + ')">' + tag.name + '</a></td></tr>';
 		});
 		result += "<table>";
 		display.innerHTML += result;
@@ -248,16 +246,28 @@ document.addEventListener('DOMContentLoaded', () => {
 	var listPosteDdate = function () {
 		var result = "<table>";
 		postData.forEach((post, index) => {
-			result += '<tr onclick="cmdPost(' + index + ')"><td onmouseover="javascript:this.className=\'linkyHover\'" onmouseout="javascript:this.className=\'linkyNormal\'" class="linkyNormal">' + post.date + '</td></tr>';
+			result += '<tr><td><a href="javascript:cmdPost(' + index + ')">' + post.date + '</a></td></tr>';
 		});
 		result += "<table>";
 		display.innerHTML += result;
+	}
+
+	var parseCmdParameter = function (parameter, max) {
+		if (!parameter) {
+			return NaN;
+		}
+		var value = parseInt(parameter);
+		if (!Number.isInteger(value) || value >= max || value < 0) {
+			return NaN;
+		}
+		return value;
 	}
 
 	var execute = function (what) {
 		if (!postData) {
 			alert('Failure, please try later, back to home page.');
 			document.location.href = "/";
+			return false;
 		}
 
 		if (Number.isInteger(parseInt(what.command))) {
@@ -281,7 +291,6 @@ document.addEventListener('DOMContentLoaded', () => {
 						display.innerHTML += "<p>Please provide search keywords.</p>";
 						break;
 					}
-
 					display.innerHTML += "<p>Search results for: " + what.parameter + "</p>";
 					var searchResults = [];
 					var searchTerm = what.parameter.toLowerCase();
@@ -366,40 +375,26 @@ document.addEventListener('DOMContentLoaded', () => {
 					listCategories();
 					break;
 				case 'category':
-					if (what.parameter) {
-						var categoryId = parseInt(what.parameter);
-						if (!Number.isInteger(categoryId) || categoryId > categoryData.length || categoryId < 0) {
-							display.innerHTML += "<p>Please provide a vaild category id.</p>";
-							break;
-						}
-						else {
-							display.innerHTML += "<p>Category: " + categoryId + "</p>";
-							displayCategory(categoryId);
-							break;
-						}
-					} else {
-						display.innerHTML += "Please provide a category id.";
+					var categoryId = parseCmdParameter(what.parameter, categoryData.length);
+					if (isNaN(categoryId)) {
+						display.innerHTML += "<p>Please provide a vaild category id.</p>";
 						break;
 					}
+					display.innerHTML += "<p>Category: " + categoryId + "</p>";
+					displayCategory(categoryId);
+					break;
 				case 'tags':
 					listTags();
 					break;
 				case 'tag':
-					if (what.parameter) {
-						var tagId = parseInt(what.parameter);
-						if (!Number.isInteger(tagId) || tagId > tagData.length || tagId < 0) {
-							display.innerHTML += "<p>Please provide a vaild tag id.</p>";
-							break;
-						}
-						else {
-							display.innerHTML += "<p>Tag: " + tagId + "</p>";
-							displayTag(tagId);
-							break;
-						}
-					} else {
-						display.innerHTML += "Please provide a tag id.";
+					var tagId = parseCmdParameter(what.parameter, tagData.length);
+					if (isNaN(tagId)) {
+						display.innerHTML += "<p>Please provide a vaild tag id.</p>";
 						break;
 					}
+					display.innerHTML += "<p>Tag: " + tagId + "</p>";
+					displayTag(tagId);
+					break;
 				case 'posteddate':
 					listPosteDdate()
 					break;
