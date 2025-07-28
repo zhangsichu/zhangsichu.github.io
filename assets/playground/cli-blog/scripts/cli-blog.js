@@ -192,7 +192,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 		var result = "<div class='post'>";
 		result += '<div> <a href="' + post.url + '" target="_blank"><span>' + post.title + '</span> - <span>' + post.date + '</span></a></div>';
-		result += '<div>' + post.content.substr(0, 500) + '</div>';
+		result += '<div>' + post.content.substr(0, 500) + ' ...' + '</div>';
 		result += '<div>' + (categories.length > 1 ? 'Categories' : 'Category') + ': ' + categories.map(item => '<span><a href="javascript:cmdCategory(\'' + getCategoryId(item) + '\')">' + item + '</a></span> ').join(' ');
 		result += '  ' + (tags.length > 1 ? 'Tags' : 'Tag') + ': ' + tags.map(item => '<span><a href="javascript:cmdTag(\'' + getTagId(item) + '\')">' + item + '</a></span> ').join(' ') + '</div>';
 		result += "</div>";
