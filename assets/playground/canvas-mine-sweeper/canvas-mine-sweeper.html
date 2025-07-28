@@ -1,10 +1,17 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+﻿<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
     <title>Sweeper Sample</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ favicon_path }}/favicon-16x16.png">
+    <link rel="manifest" href="/assets/img/favicons/site.webmanifest">
+    <link rel="shortcut icon" href="/assets/img/favicons/favicon.ico">
+    <meta name="msapplication-config" content="/assets/img/favicons/browserconfig.xml">
     <style type="text/css">
-        body
-        {
+        body {
             border: 0px;
             margin: 0px;
             padding: 0px;
@@ -12,20 +19,20 @@
             font-size: 13px;
             letter-spacing: 2px;
             text-shadow: 0 0 3px black;
-            font-family: Microsoft YaHei,Segoe UI,Helvetica,Arial,sans-serif;
+            font-family: Microsoft YaHei, Segoe UI, Helvetica, Arial, sans-serif;
             font-weight: bold;
             color: #C6DAFC;
         }
-        div
-        {
+
+        div {
             border: 0px;
         }
-        img
-        {
+
+        img {
             border: 0px;
         }
-        a
-        {
+
+        a {
             height: 25px;
             width: 160px;
             padding-top: 5px;
@@ -44,16 +51,16 @@
             text-align: center;
             vertical-align: middle;
         }
-        a:hover
-        {
+
+        a:hover {
             background-color: #5C729A;
         }
-        .titleFont
-        {
+
+        .titleFont {
             font-size: 17px;
         }
-        .displayFont
-        {
+
+        .displayFont {
             color: white;
             font-weight: lighter;
             letter-spacing: 3px;
@@ -61,38 +68,38 @@
             line-height: normal;
             font-size: 18px;
         }
-        .line
-        {
+
+        .line {
             border: #43485F 1px solid;
         }
-        .textSetting
-        {
+
+        .textSetting {
             width: 150px;
             border: 1px solid #999999;
             color: white;
             font-weight: lighter;
             background: #8092B3;
         }
-        .winFont
-        {
+
+        .winFont {
             color: #F47272;
             font-size: 11px;
         }
-        .loseFont
-        {
+
+        .loseFont {
             color: #7B94E5;
             font-size: 11px;
         }
-        .savedGame
-        {
+
+        .savedGame {
             float: left;
             border: dotted 1px #999999;
             margin: 3px;
             padding: 3px;
             background-color: #C8CFDA;
         }
-        .savedGameMouseOver
-        {
+
+        .savedGameMouseOver {
             float: left;
             border: solid 1px #FF9999;
             margin: 3px;
@@ -293,9 +300,9 @@
             y = parseInt(y);
             mine = parseInt(mine);
             if (x.toString() == "NaN" ||
-               y.toString() == "NaN" ||
-               mine.toString() == "NaN" ||
-               x <= 0 || y <= 0 || mine <= 0) {
+                y.toString() == "NaN" ||
+                mine.toString() == "NaN" ||
+                x <= 0 || y <= 0 || mine <= 0) {
                 alert("Customer Setting Error!");
                 return;
             }
@@ -380,16 +387,18 @@
         })();
     </script>
 </head>
+
 <body>
     <div style="float:left;width:320px;">
         <div style="padding:0px 10px 0px 20px;padding-top:10px;">
             <div class="titleFont">
-            Welcome to MineSweeper! <br />
-            Today is: <script type="text/javascript">document.write(new Date().toDateString());</script>.
+                Welcome to MineSweeper! <br />
+                Today is:
+                <script type="text/javascript">document.write(new Date().toDateString());</script>.
             </div>
             <div class="line"></div>
             <div class="titleFont">
-            Game Mode:
+                Game Mode:
             </div>
             <div style="margin-left:80px; margin-top:5px;">
                 <a href="javascript:newGame(7,7,10);" class="button">Beginner</a> <br />
@@ -399,27 +408,42 @@
             </div>
             <div class="line"></div>
             <div class="titleFont">
-            Customer Setting:
+                Customer Setting:
             </div>
             <table style="margin-top:5px; font-size:12px;">
-                <tr><td>Game Height:</td>
-                    <td><input id="mineHeight" type="text" class="textSetting" value="15" onkeyup="javascript:checkInput(this,window.DefaultY);" onpaste="javascript:checkInput(this,window.DefaultY);" maxlength="2"/></td></tr>
-                <tr><td>Game Width:</td>
-                    <td><input id="mineWidth" type="text" class="textSetting" value="30" onkeyup="javascript:checkInput(this,window.DefaultX);" onpaste="javascript:checkInput(this,window.DefaultX);" maxlength="2"/></td></tr>
-                <tr><td>Number of Bombs:</td>
-                    <td><input id="mineNumber" type="text" class="textSetting" value="99"onkeyup="javascript:checkInput(this,window.DefaultMine);" onpaste="javascript:checkInput(this,window.DefaultMine);" maxlength="2"/></td></tr>
+                <tr>
+                    <td>Game Height:</td>
+                    <td><input id="mineHeight" type="text" class="textSetting" value="15"
+                            onkeyup="javascript:checkInput(this,window.DefaultY);"
+                            onpaste="javascript:checkInput(this,window.DefaultY);" maxlength="2" /></td>
+                </tr>
+                <tr>
+                    <td>Game Width:</td>
+                    <td><input id="mineWidth" type="text" class="textSetting" value="30"
+                            onkeyup="javascript:checkInput(this,window.DefaultX);"
+                            onpaste="javascript:checkInput(this,window.DefaultX);" maxlength="2" /></td>
+                </tr>
+                <tr>
+                    <td>Number of Bombs:</td>
+                    <td><input id="mineNumber" type="text" class="textSetting" value="99"
+                            onkeyup="javascript:checkInput(this,window.DefaultMine);"
+                            onpaste="javascript:checkInput(this,window.DefaultMine);" maxlength="2" /></td>
+                </tr>
             </table>
             <div style="margin-left:80px;">
-                <a href="javascript:customerGame($('mineWidth').value,$('mineHeight').value,$('mineNumber').value);" class="button">New Game</a>
+                <a href="javascript:customerGame($('mineWidth').value,$('mineHeight').value,$('mineNumber').value);"
+                    class="button">New Game</a>
             </div>
             <div class="line"></div>
             <div class="titleFont">
-            Performace Test:
+                Performace Test:
             </div>
             <table style="margin-top:5px; font-size:12px;">
                 <tr>
                     <td>Times:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-                    <td><input id="testTimes" type="text" class="textSetting" value="10" onkeyup="javascript:checkInput(this,window.DefaultTestTimes);" onpaste="javascript:checkInput(this,window.DefaultTestTimes);" maxlength="3"/></td>
+                    <td><input id="testTimes" type="text" class="textSetting" value="10"
+                            onkeyup="javascript:checkInput(this,window.DefaultTestTimes);"
+                            onpaste="javascript:checkInput(this,window.DefaultTestTimes);" maxlength="3" /></td>
                 </tr>
             </table>
             <div style="margin-left:80px; margin-top:5px;">
@@ -427,36 +451,47 @@
             </div>
             <div class="line"></div>
             <div class="titleFont">
-            Game Record(s): <span id="recordCount">0</span>
+                Game Record(s): <span id="recordCount">0</span>
             </div>
             <ul id="recordList" style="margin-top:5px; line-height:140%">
             </ul>
         </div>
     </div>
     <div style="margin-left:320px;">
-      <div style="padding:10px 10px 0px 20px;">
-        <div class="titleFont" style="text-align:left; padding-right:10px;">Powered By ZhangSichu <br />Copyright © ZhangSichu.com</div>
-        <div class="line"></div>
-        <div>
-          <a href="javascript:switchGame();" class="button" id="gameSwitcher">Pause</a>
-          <a href="javascript:saveGame();" class="button">Save</a>
-          
-          <div id="gamePanel" style="background-image:url(images/panelBackground.gif); width:700px; height:400px; text-align:center; vertical-align:middle; border: solid 1px #B6BCCC;">
-            <div style="text-align:center; height:25px;"></div>
-            <div id="mineAreaPanel" style="border: solid 1px #818BAA; width:600px; height:300px; margin-left:50px;"><canvas id="theCanvas"></canvas></div>
-            <div style="margin-top:10px;">
-                <div id="costTimePanel" style="float:left; margin-left:70px; width:142px; height:55px; background-image:url(images/timeBackground.png)"><br /><span style="margin-left:55px;" class="displayFont" id="gameTimeCost">000</span></div>
-                <div style="float:left;margin-left:110px;"><img id="gameFace" src="images/faceNormal.png" alt="" onclick="javascript:resetGame();" /></div>
-                <div id="currentMinePanel" style="float:right; margin-right:70px; width:142px; height:53px; background-image:url(images/mineBackground.png)"><br /><span style="margin-right:55px;" class="displayFont" id="gameCurrentMine">000</span></div>
-            </div>
-          </div>
+        <div style="padding:10px 10px 0px 20px;">
+            <div class="titleFont" style="text-align:left; padding-right:10px;">Powered By ZhangSichu <br />Copyright ©
+                ZhangSichu.com</div>
+            <div class="line"></div>
+            <div>
+                <a href="javascript:switchGame();" class="button" id="gameSwitcher">Pause</a>
+                <a href="javascript:saveGame();" class="button">Save</a>
 
+                <div id="gamePanel"
+                    style="background-image:url(images/panelBackground.gif); width:700px; height:400px; text-align:center; vertical-align:middle; border: solid 1px #B6BCCC;">
+                    <div style="text-align:center; height:25px;"></div>
+                    <div id="mineAreaPanel"
+                        style="border: solid 1px #818BAA; width:600px; height:300px; margin-left:50px;"><canvas
+                            id="theCanvas"></canvas></div>
+                    <div style="margin-top:10px;">
+                        <div id="costTimePanel"
+                            style="float:left; margin-left:70px; width:142px; height:55px; background-image:url(images/timeBackground.png)">
+                            <br /><span style="margin-left:55px;" class="displayFont" id="gameTimeCost">000</span>
+                        </div>
+                        <div style="float:left;margin-left:110px;"><img id="gameFace" src="images/faceNormal.png" alt=""
+                                onclick="javascript:resetGame();" /></div>
+                        <div id="currentMinePanel"
+                            style="float:right; margin-right:70px; width:142px; height:53px; background-image:url(images/mineBackground.png)">
+                            <br /><span style="margin-right:55px;" class="displayFont" id="gameCurrentMine">000</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <br />
+            <div class="line"></div>
+            <b>Game Storage:</b><br />
+            <div id="savePanel"></div>
         </div>
-        <br />
-        <div class="line"></div>
-        <b>Game Storage:</b><br />
-        <div id="savePanel"></div>
-      </div>
     </div>
     <div style="display:none">
         <img src="images/flag.gif" alt="" id="flag" />
@@ -472,7 +507,7 @@
         <img src="images/five.gif" alt="" id="five" />
         <img src="images/six.gif" alt="" id="six" />
         <img src="images/seven.gif" alt="" id="seven" />
-        <img src="images/eight.gif" alt="" id="eight" />                        
+        <img src="images/eight.gif" alt="" id="eight" />
     </div>
     <script type="text/javascript">
         //==========Static Data==========
@@ -537,4 +572,5 @@
         //====Static Data End========
     </script>
 </body>
+
 </html>
