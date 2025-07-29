@@ -2,7 +2,7 @@
 title: Some Web Model Dialog Tips
 date: 2006-12-21 13:56:00 + 0080
 category: [Web开发]
-tags: [Web]
+tags: [Web, Design]
 ---
 
 Some Web Model Dialog Tips 原始信息来在公司的 Community Server，经过自己补充和整理。  

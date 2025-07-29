@@ -2,7 +2,7 @@
 title: 痛并快乐的上班族
 date: 2006-02-21 19:02:50 + 0080
 category: [随感/生活]
-tags: [随感, 随感]
+tags: [Life, 随感]
 image:
     path: /assets/attachments/2006/02/21_190247_da3hpic31361.jpg
     show_top: false
