@@ -1,7 +1,7 @@
 ---
 title: Axure + Ionic 开发移动应用 - 实现页面UI
 date: 2015-08-04 10:10:46 + 0080
-category: [.Net/Java]
+category: [Web开发]
 tags: [Web, Design, Mobile]
 ---
 
