@@ -69,5 +69,3 @@ Seasoned software architect and engineering leader with 20+ years of experience 
 * **Top 100 Summits 2019:** [Capability building and quality assurance of the team in rapid expansion](https://www.top100summit.com/detail?id=14087){:target="_blank"}
 * **Top 100 Summits 2020:** [Digital visualization, insights and improvement of R&D efficiency](https://www.top100summit.com/detail?id=14882){:target="_blank"}
 * **Organizer & Mentor:** Mentor and speaker at multiple tech communities ([GDG](https://gdg.community.dev/gdg-xian/){:target="_blank"}, AWS UG, [.NET](https://www.cnblogs.com/xiandnc/p/11318035.html){:target="_blank"}, AgileTour)
-
----
