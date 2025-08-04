@@ -9,7 +9,11 @@ Technical Principal, Thoughtworks
 
 ---
 
-Seasoned software architect and engineering leader with 20+ years of experience delivering large-scale digital platforms. Currently serving as Technical Principal at Thoughtworks’ China Offshore Delivery Center, Sichu Zhang specializes in cloud-native microservices, modern Java/.Net ecosystems, DevOps automation, and engineering effectiveness. He has led technical delivery for financial platforms, implemented AI-powered tooling such as GitHub Copilot, Cursor and Haiven, and defined metrics frameworks to enhance delivery outcomes. Known for architecture leadership, AI-enablement strategy, and mentoring high-performing teams across global accounts. Author of industry-recognized insights and inventor of multiple web-technology patents.
+Seasoned software architect and engineering leader with over 20 years’ experience delivering large-scale digital platforms. 
+
+Currently serving as Technical Principal at Thoughtworks’ China Offshore Delivery Center, I specialize in cloud-native microservices, modern .NET/Java, JavaScript, and Python ecosystems, along with DevOps, DevSecOps automation, and engineering effectiveness.
+
+I have led technical delivery for complex financial platforms, introduced AI-powered development tools such as GitHub Copilot, Cursor, and Haiven, and designed metrics frameworks to improve delivery performance. Known for architecture leadership, AI-enablement strategies, and mentoring high-performing teams across global engagements, I am also the author of industry-recognized thought leadership and the inventor of multiple web-technology patents.
 
 ---
 
