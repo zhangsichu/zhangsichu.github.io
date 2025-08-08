@@ -1,5 +1,5 @@
 ---
-title: 将安全内建于开发流程中：威胁应对分步指南(Build Security In) - 上
+title: 将安全内建于开发流程中：威胁应对分步指南 (Build Security In) - 上
 date: 2025-05-28 23:19:32 + 0080
 category: [软件工程]
 tags: [Security, Design, Software Development]
