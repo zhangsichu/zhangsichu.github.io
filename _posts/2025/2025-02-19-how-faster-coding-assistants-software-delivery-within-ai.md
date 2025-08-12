@@ -90,3 +90,4 @@ Finally, we want to caution that the amount of effort spent on tracking and meas
 
 [**公司Global网站发布**](https://www.thoughtworks.com/en-sg/insights/blog/generative-ai/how-faster-coding-assistants-software-delivery){:target="_blank"}
 
+[**Medium发布**](https://thoughtworks.medium.com/https-www-thoughtworks-com-insights-blog-generative-ai-how-faster-coding-assistants-software-delivery-3203da03c484){:target="_blank"}
