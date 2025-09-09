@@ -9,11 +9,13 @@ Technical Principal, Thoughtworks
 
 ---
 
-Seasoned software architect and engineering leader with over 20 years’ experience delivering large-scale digital platforms. 
+I’m a seasoned software architect and engineering leader with over two decades of experience shaping large-scale digital platforms.
 
-Currently serving as Technical Principal at Thoughtworks’ China Offshore Delivery Center, I specialize in cloud-native microservices, modern .NET/Java, JavaScript, and Python ecosystems, along with DevOps, DevSecOps automation, and engineering effectiveness.
+As a Technical Principal at Thoughtworks’ China Offshore Delivery Center, I focus on cloud-native microservices, modern .NET/Java, JavaScript, and Python ecosystems, and driving impact through DevOps, DevSecOps automation, and engineering effectiveness.
 
-I have led technical delivery for complex financial platforms, introduced AI-powered development tools such as GitHub Copilot, Cursor, and Haiven, and designed metrics frameworks to improve delivery performance. Known for architecture leadership, AI-enablement strategies, and mentoring high-performing teams across global engagements, I am also the author of industry-recognized thought leadership and the inventor of multiple web-technology patents.
+Over the years, I’ve led the delivery of complex financial platforms, championed the adoption of AI-powered development tools like GitHub Copilot, Cursor, and Haiven, and designed metrics frameworks that help teams deliver faster and better. What excites me most is guiding teams to unlock their potential—whether through architecture leadership, AI-enablement strategies, or mentoring future tech leaders.
+
+Beyond delivery, I contribute to the wider community as the author of thought leadership that’s been recognized across the industry.
 
 ---
 
@@ -46,14 +48,6 @@ I have led technical delivery for complex financial platforms, introduced AI-pow
 * **DevOps & CI/CD:** Jenkins, GitHub Actions, Azure DevOps, Infrastructure as Code, Blue-Green & Canary Deployments
 * **Testing & Quality:** TDD/BDD, JUnit, Selenium, Mocha, Contract Tests (PACT), SonarQube
 * **Observability & Metrics:** Prometheus/Grafana, ELK Stack, Delivery Performance Dashboards
-
----
-
-## Patents
-
-* Method for packaging and unpacking a web site (CN103929432A)
-* Method of generating a web page for a system or a terminal device (CN103544024A)
-* Method and apparatus for invoking peripherals from the browser (CN105094921A)
 
 ---
 
