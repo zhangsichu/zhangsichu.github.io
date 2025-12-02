@@ -43,6 +43,7 @@ tags: [Web, Design, Mobile]
 
 ### 列表页面
 首先构建派送列表页的`html`内容: 
+{% raw %}
 ```html 
 <ion-view view-title="{{now | date:yyyy年M月d日}}">
     <ion-nav-bar class="bar bar-balanced" align-title="center">
@@ -70,6 +71,8 @@ tags: [Web, Design, Mobile]
     </div>
 </ion-view>
 ```
+{% endraw %}
+
 为了展示数据，这里在 `Service` 里做了一个 `MockDB` 使用这个 `MockDB` 为 `App` 提供数据，这样当请求使用后端数据的时候，只要后端的 `RESTful Service` 也返回同样规格的数据就可以了。  
 ![json mock DB](/assets/attachments/2015/08/05_145628_vsky2.png)  
 这里代码比较多，具体代码在 `services.js` 中。  
@@ -82,6 +85,7 @@ tags: [Web, Design, Mobile]
 
 ### 详细页面  
 添加详细页面 `html` 代码:  
+{% raw %}
 ```html
 <ion-view view-title="订单:{{data.code}}">
     <ion-nav-bar class="bar bar-positive" align-title="center">
@@ -129,6 +133,8 @@ tags: [Web, Design, Mobile]
     </ion-content>
 </ion-view>
 ```   
+{% endraw %}
+
 添加页面 `controller` :  
 ![page controller](/assets/attachments/2015/08/05_171557_b91e4.png)  
 到这一步 详细页面完成了:  
